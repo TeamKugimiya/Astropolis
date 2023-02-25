@@ -1,0 +1,545 @@
+{
+	id: "169518F33B73A47A"
+	group: "2B6989CB689DF96C"
+	order_index: 3
+	filename: "serious_power"
+	title: "強大的電力"
+	icon: "mekanism:pellet_plutonium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.0d
+			y: -1.5d
+			description: ["用來搭建核分裂反應爐的外殼。"]
+			dependencies: ["7906349E478C5EA1"]
+			id: "24481EBA3E4976AF"
+			tasks: [{
+				id: "42892ACF9929E408"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+			rewards: [{
+				id: "0C9108553F665B11"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			description: ["用來輸入或輸出冷卻液，燃料和核廢料。"]
+			dependencies: ["24481EBA3E4976AF"]
+			id: "335AE2C522F74F53"
+			tasks: [{
+				id: "27F3868BC6AD1231"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_port"
+			}]
+			rewards: [{
+				id: "4BBC55D3D5D44791"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["24481EBA3E4976AF"]
+			id: "219EA54C46D9D6D7"
+			tasks: [{
+				id: "5462BF4E24DF4F28"
+				type: "item"
+				item: "mekanismgenerators:fission_fuel_assembly"
+			}]
+			rewards: [{
+				id: "3F1AFC73EACFFA4E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			description: ["必須放在核分裂燃料組件的正上方。"]
+			dependencies: ["24481EBA3E4976AF"]
+			id: "336C3558D7CED49C"
+			tasks: [{
+				id: "2A0F8DDBCDA63804"
+				type: "item"
+				item: "mekanismgenerators:control_rod_assembly"
+			}]
+			rewards: [{
+				id: "0CE7E5974F12E03E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["也能用來打造反應爐。"]
+			dependencies: ["24481EBA3E4976AF"]
+			id: "290A9FF9C419BC20"
+			tasks: [{
+				id: "18D184EBE3520D8E"
+				type: "item"
+				item: "mekanismgenerators:reactor_glass"
+			}]
+			rewards: [{
+				id: "58D404382C64401B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: ["用來製作各種化學品。"]
+			dependencies: [
+				"6D1B9D08DBDFA62E"
+				"7B36D017364C814F"
+			]
+			id: "58DC6B73BD26703C"
+			tasks: [{
+				id: "1598600DCABB3D26"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "6B5B355CEE654E72"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: ["富集鈾。"]
+			dependencies: ["52DB1985F64F1D61"]
+			id: "7A58A0865B5D3379"
+			tasks: [{
+				id: "04F3FA8304F19647"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+			}]
+			rewards: [{
+				id: "12E9DBE769222A7C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: ["黃鈾餅和石英的混合物。"]
+			dependencies: ["7A58A0865B5D3379"]
+			id: "4824F0FA9FF5FBC7"
+			tasks: [{
+				id: "5048D104E7245D62"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+			rewards: [{
+				id: "6F7803E29F89C44C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["1BC70817C4A76640"]
+			id: "56C081FC33F6D251"
+			tasks: [{
+				id: "08237203D4255224"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "795F3B28519007BA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: ["在化學氧化機中用黃鈾餅製成。"]
+			dependencies: [
+				"56C081FC33F6D251"
+				"7A58A0865B5D3379"
+			]
+			id: "6D1B9D08DBDFA62E"
+			tasks: [{
+				id: "35F98357481423D1"
+				type: "checkmark"
+				title: "氧化鈾"
+				icon: "mekanism:uranium_oxide_bucket"
+			}]
+			rewards: [{
+				id: "5D72922D4C0D7DC9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			icon: "mekanism:uranium_hexafluoride_bucket"
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["58DC6B73BD26703C"]
+			id: "6E2D664DE6963649"
+			tasks: [{
+				id: "256B0C1743D1CF0C"
+				type: "checkmark"
+				title: "六氟化鈾"
+			}]
+			rewards: [{
+				id: "277F64D66FA5D0DA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["4FD98B6BACE34F9F"]
+			id: "79F57B7EB464265E"
+			tasks: [{
+				id: "7BB9ED0D6ABC06A0"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+			rewards: [{
+				id: "156C775C0F74446B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			icon: "mekanism:hydrofluoric_acid_bucket"
+			x: 3.0d
+			y: -2.5d
+			description: ["在化學溶解室中用氟石和硫酸製成。"]
+			dependencies: [
+				"79F57B7EB464265E"
+				"4824F0FA9FF5FBC7"
+			]
+			id: "7B36D017364C814F"
+			tasks: [{
+				id: "2F896B25958FF35E"
+				type: "checkmark"
+				title: "氫氟酸"
+			}]
+			rewards: [{
+				id: "36B7F9F30AF9F47E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			icon: "mekanism:sulfuric_acid_bucket"
+			x: 1.5d
+			y: -1.5d
+			description: ["用來分解化學品和物品。"]
+			dependencies: ["6146DEC3F298EA6F"]
+			id: "4FD98B6BACE34F9F"
+			tasks: [{
+				id: "523F9DE11E1BE07D"
+				type: "checkmark"
+				title: "硫酸"
+			}]
+			rewards: [{
+				id: "6C336509CCC691D7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["有很多不同的方式製作。最簡單的是在沉浸工程的粉碎機中粉碎烈焰桿。"]
+			dependencies: ["238D12A140296CAB"]
+			id: "6146DEC3F298EA6F"
+			tasks: [{
+				id: "45B2581EF813E796"
+				type: "item"
+				item: "mekanism:dust_sulfur"
+			}]
+			rewards: [{
+				id: "0CF75A80313CDE8D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			description: ["將六氟化鈾轉換成核分裂燃料，用來讓核分裂反應爐運作。"]
+			dependencies: ["6E2D664DE6963649"]
+			id: "06836456442BF2BE"
+			tasks: [{
+				id: "1B29C20CBCDA14C2"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "3BF56E0F9FBB960F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			description: ["核廢料是核分裂反應爐的一個副產物。"]
+			dependencies: [
+				"06836456442BF2BE"
+				"207A5713B8547505"
+			]
+			id: "63B2ED572DDD9E47"
+			tasks: [{
+				id: "3611AA462D820B0D"
+				type: "checkmark"
+				title: "核廢料"
+			}]
+			rewards: [{
+				id: "290368787CB8F6F4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			icon: "mekanism:steam_bucket"
+			x: 7.0d
+			y: -2.5d
+			description: ["核分裂反應爐會產生大量的蒸氣。運用這些蒸氣讓渦輪運轉發電。"]
+			dependencies: [
+				"06836456442BF2BE"
+				"207A5713B8547505"
+			]
+			id: "5D0DB2C05C9CBA63"
+			tasks: [{
+				id: "000AF6AFB273B414"
+				type: "checkmark"
+				title: "蒸氣"
+			}]
+			rewards: [{
+				id: "38643541F97D66CB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			description: ["用在渦輪結構的外殼。"]
+			dependencies: ["5D0DB2C05C9CBA63"]
+			id: "251DD9435EECC513"
+			tasks: [{
+				id: "607368961BDCA84C"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+			}]
+			rewards: [{
+				id: "4775F0696F00F878"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			description: ["用來輸出電力或輸入蒸氣。"]
+			dependencies: ["251DD9435EECC513"]
+			id: "4E9193AC698BA8F8"
+			tasks: [{
+				id: "45B374E12D6E0760"
+				type: "item"
+				item: "mekanismgenerators:turbine_valve"
+			}]
+			rewards: [{
+				id: "1EB01EDEE866F5D4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			description: ["這些是放在旋鈕裝置周圍的。"]
+			dependencies: ["6033197B0155AC5D"]
+			id: "080DC1015ACD5419"
+			tasks: [{
+				id: "09AABC95A9184E29"
+				type: "item"
+				item: "mekanism:pressure_disperser"
+			}]
+			rewards: [{
+				id: "29696B488C9685DF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			description: ["這些是放在電磁線圈上方的。"]
+			dependencies: ["369366923BEBE985"]
+			id: "702E00A47701B9A4"
+			tasks: [{
+				id: "61C995B250B1B3C6"
+				type: "item"
+				item: "mekanismgenerators:saturating_condenser"
+			}]
+			rewards: [{
+				id: "5ED5EB1FFDCFE440"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			description: ["結構中至少需要一個渦輪排氣口。能接上流體管道從渦輪中將水取出，"]
+			dependencies: ["251DD9435EECC513"]
+			id: "584CD1D4F741DC76"
+			tasks: [{
+				id: "40F2187AB462717F"
+				type: "item"
+				item: "mekanismgenerators:turbine_vent"
+			}]
+			rewards: [{
+				id: "016D86AB4F1718B3"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			description: ["接在渦輪轉子上，每個轉子可安裝至多 2 個葉片，對轉子右鍵安裝。"]
+			dependencies: ["34B603720FA1CDE6"]
+			id: "060DBC0C681F7094"
+			tasks: [{
+				id: "4790ABCE95909A6B"
+				type: "item"
+				item: "mekanismgenerators:turbine_blade"
+			}]
+			rewards: [{
+				id: "3B390D058162CB39"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			description: ["渦輪結構的正中央。"]
+			dependencies: ["251DD9435EECC513"]
+			id: "34B603720FA1CDE6"
+			tasks: [{
+				id: "04C2FDE10B69D3C0"
+				type: "item"
+				item: "mekanismgenerators:turbine_rotor"
+			}]
+			rewards: [{
+				id: "72DF98A0CF329682"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			description: ["接在渦輪轉子的正上方。"]
+			dependencies: ["34B603720FA1CDE6"]
+			id: "6033197B0155AC5D"
+			tasks: [{
+				id: "635CE3CA610D868D"
+				type: "item"
+				item: "mekanismgenerators:rotational_complex"
+			}]
+			rewards: [{
+				id: "5B3996AECD661BC7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			description: ["這些是放在分壓元件和旋鈕裝置上方的。"]
+			dependencies: [
+				"6033197B0155AC5D"
+				"080DC1015ACD5419"
+			]
+			id: "369366923BEBE985"
+			tasks: [{
+				id: "0F9892E36765665F"
+				type: "item"
+				item: "mekanismgenerators:electromagnetic_coil"
+			}]
+			rewards: [{
+				id: "263D0D0FCD7B242E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["用鈽製成。"]
+			dependencies: ["62F27EF8115F43B0"]
+			id: "7AB45036996D9A47"
+			tasks: [{
+				id: "0C5E8C11B89B4D83"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "5CD53F257B38DD3A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["用核廢料製成。"]
+			dependencies: ["63B2ED572DDD9E47"]
+			id: "62F27EF8115F43B0"
+			tasks: [{
+				id: "09463E6FC11DE40F"
+				type: "checkmark"
+				title: "鈽"
+			}]
+			rewards: [{
+				id: "402E7BF002FAD2A1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: [""]
+			dependencies: [
+				"336C3558D7CED49C"
+				"335AE2C522F74F53"
+				"219EA54C46D9D6D7"
+			]
+			id: "207A5713B8547505"
+			tasks: [{
+				id: "0C4176EA06565FE9"
+				type: "checkmark"
+				title: "製作核分裂反應爐"
+			}]
+			rewards: [{
+				id: "5E8F4EAF5AEF817D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

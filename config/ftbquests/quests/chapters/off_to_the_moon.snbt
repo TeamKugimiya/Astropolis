@@ -1,0 +1,114 @@
+{
+	id: "7017EE0C9334CEE9"
+	group: "247F799727C527B4"
+	order_index: 0
+	filename: "off_to_the_moon"
+	title: "前往月球"
+	icon: "cosmopolis:moon_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["用來製作通往月球的傳送門。需要 10 個。"]
+			dependencies: ["3E00B0FB0862A855"]
+			id: "79BE5D5D89482373"
+			tasks: [{
+				id: "38C23DF925CB31FA"
+				type: "item"
+				item: "cosmopolis:moon_portal_frame"
+			}]
+			rewards: [{
+				id: "75BCABAE7515C97A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["月球上會自然生成起司，淺顯易懂。"]
+			dependencies: ["79BE5D5D89482373"]
+			id: "02F990AC73A71D39"
+			tasks: [{
+				id: "0B8844C6E6DC7679"
+				type: "item"
+				item: "cosmopolis:cheese"
+			}]
+			rewards: [{
+				id: "48F72F70D032B340"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["在月球上的房屋和大型行星石自然生成。"]
+			dependencies: ["79BE5D5D89482373"]
+			id: "03A15E9A9A032413"
+			tasks: [{
+				id: "159DC393775FFF57"
+				type: "item"
+				item: "cosmopolis:alien_artifact"
+			}]
+			rewards: [{
+				id: "06E9C7B78BDD77B1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["月球中高度 0 以下，破壞黑石掉落。"]
+			dependencies: ["79BE5D5D89482373"]
+			id: "7B3FDBBD7C3A8B0A"
+			tasks: [{
+				id: "01E95BF4B63BB02F"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+			}]
+			rewards: [{
+				id: "0B88D3CC45F08274"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["用紫水晶碎片和海磷碎片製成。"]
+			dependencies: ["7B3FDBBD7C3A8B0A"]
+			id: "32426D27F918E13B"
+			tasks: [{
+				id: "22B4CC66C25229EF"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+			rewards: [{
+				id: "2D078F4E07FD5B2E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["就是個燈。"]
+			dependencies: ["32426D27F918E13B"]
+			id: "038AF626497BACF0"
+			tasks: [{
+				id: "586E0D5DB5A0D4EF"
+				type: "item"
+				item: "minecraft:sea_lantern"
+			}]
+			rewards: [{
+				id: "19177793882BA584"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	id: "0B95B92E93BFCF9A"
+	group: "4084AAEFF25CED3D"
+	order_index: 1
+	filename: "decorations"
+	title: "裝飾品"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "地球儀"
+			icon: "supplementaries:globe"
+			x: 0.0d
+			y: 0.0d
+			description: ["往日情懷"]
+			repeatable: true
+			id: "4B2125047CF6B8C7"
+			tasks: [{
+				id: "7F53069775848F1B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20E2D0FC5E1F744A"
+				type: "item"
+				item: "supplementaries:globe"
+			}]
+		}
+		{
+			title: "染料"
+			icon: "minecraft:white_dye"
+			x: 1.5d
+			y: 0.0d
+			description: ["需要染料嗎？"]
+			repeatable: true
+			id: "702669BE5A226996"
+			tasks: [{
+				id: "749549653EF2D6D8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2636BEC8048B31DA"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5281378274701147301L
+			}]
+		}
+	]
+}

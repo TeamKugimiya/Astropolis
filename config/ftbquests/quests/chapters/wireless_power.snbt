@@ -1,0 +1,122 @@
+{
+	id: "107910A30EED7A4E"
+	group: "2B6989CB689DF96C"
+	order_index: 4
+	filename: "wireless_power"
+	title: "無線電力傳輸"
+	icon: "fluxnetworks:flux_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["通量網路的基礎材料。"]
+			dependencies: [
+				"23DC8A0ED206535E"
+				"0E4BAFDA2F38B84E"
+				"037ADB2C9236B934"
+			]
+			dependency_requirement: "all_started"
+			id: "76B21A60651E7FDD"
+			tasks: [{
+				id: "616FEFA89B71CE4D"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [{
+				id: "0540CAE72C0E2291"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["將電力輸入到你的無線網路。"]
+			dependencies: ["5AE36F07B3CE3F33"]
+			id: "5227D6E200EB871C"
+			tasks: [{
+				id: "7882EA55175B619C"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "0CA207BD05706F9C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["將電力從你的無線網路輸出。"]
+			dependencies: ["5AE36F07B3CE3F33"]
+			id: "7EBFD190F3D35363"
+			tasks: [{
+				id: "0F38CD0525A6BB4C"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "33B27A0F1F075F0C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["核心。"]
+			dependencies: ["76B21A60651E7FDD"]
+			id: "5AE36F07B3CE3F33"
+			tasks: [{
+				id: "3E0D45CD0FE48A8B"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "731964019C52A1DC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["讓你能將身上的物品無線充電。"]
+			dependencies: [
+				"5227D6E200EB871C"
+				"7EBFD190F3D35363"
+			]
+			id: "2A51FC6ECBA36376"
+			tasks: [{
+				id: "3B465A8EFEA2EA03"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "1102498C83AEA041"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["為你的無線網路儲存電力。"]
+			dependencies: ["5AE36F07B3CE3F33"]
+			id: "20354BB986DB131D"
+			tasks: [{
+				id: "45730A86C944D3AB"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [{
+				id: "3C40D6A602387F61"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

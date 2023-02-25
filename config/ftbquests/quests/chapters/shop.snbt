@@ -1,0 +1,732 @@
+{
+	id: "38022F3291087EF0"
+	group: "4084AAEFF25CED3D"
+	order_index: 0
+	filename: "shop"
+	title: "方塊商店"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "紅色石頭"
+			icon: "caveopolis:red_colored_stone"
+			x: -2.0d
+			y: -2.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "4F2284A3A84BBF55"
+			tasks: [{
+				id: "1A29AC9D23853148"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "233F035020A4A3FC"
+				type: "item"
+				item: "caveopolis:red_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "黃色石頭"
+			icon: "caveopolis:yellow_colored_stone"
+			x: -1.0d
+			y: -2.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "6E3EE3699293E38C"
+			tasks: [{
+				id: "485795943817247E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5355F86CA0FC55D6"
+				type: "item"
+				item: "caveopolis:yellow_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "黑色石頭"
+			icon: "caveopolis:black_colored_stone"
+			x: -3.0d
+			y: -2.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "7C4326C815B9AE97"
+			tasks: [{
+				id: "510276F83E6B93F9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "40A1BF639326C829"
+				type: "item"
+				item: "caveopolis:black_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "白色石頭"
+			icon: "caveopolis:white_colored_stone"
+			x: -4.0d
+			y: -2.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "49975E3064161EDB"
+			tasks: [{
+				id: "239C7233324DEDF8"
+				type: "item"
+				disable_toast: true
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1AF9A8DE4FE8F4E6"
+				type: "item"
+				item: "caveopolis:white_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "藍色石頭"
+			icon: "caveopolis:blue_colored_stone"
+			x: -4.0d
+			y: -1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "20AFB956B46C8AB1"
+			tasks: [{
+				id: "136D2C468FCB8329"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7DBBB1CBB536C04D"
+				type: "item"
+				item: "caveopolis:blue_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "粉紅色石頭"
+			icon: "caveopolis:pink_colored_stone"
+			x: -3.0d
+			y: -1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "36CC647AD9BB5470"
+			tasks: [{
+				id: "6563808632E6C88C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7B76FBE61F95FFA2"
+				type: "item"
+				item: "caveopolis:pink_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "紫色石頭"
+			icon: "caveopolis:purple_colored_stone"
+			x: -2.0d
+			y: -1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "39295996BD6C55D8"
+			tasks: [{
+				id: "5C8F7F16ADF63A77"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C7D0542D6010164"
+				type: "item"
+				item: "caveopolis:purple_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "洋紅色石頭"
+			icon: "caveopolis:magenta_colored_stone"
+			x: -1.0d
+			y: -1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "17B253E6A00CE824"
+			tasks: [{
+				id: "47BC88262E05073E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "173FBCE2ED73A24F"
+				type: "item"
+				item: "caveopolis:magenta_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "淺藍色石頭"
+			icon: "caveopolis:light_blue_colored_stone"
+			x: -4.0d
+			y: 0.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "58A1002D35E9DD1C"
+			tasks: [{
+				id: "3EE0C9184F368544"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3197658ACC36B5E3"
+				type: "item"
+				item: "caveopolis:light_blue_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "青色石頭"
+			icon: "caveopolis:cyan_colored_stone"
+			x: -3.0d
+			y: 0.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "2E0D55F61DB2E358"
+			tasks: [{
+				id: "10493E2DC08A380E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C9166A156C6A1E0"
+				type: "item"
+				item: "caveopolis:cyan_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "灰色石頭"
+			icon: "caveopolis:gray_colored_stone"
+			x: -2.0d
+			y: 0.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "36F4BF94AAB4C4CF"
+			tasks: [{
+				id: "39A4D9099E23D4DD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F1BA53024068B8C"
+				type: "item"
+				item: "caveopolis:gray_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "棕色石頭"
+			icon: "caveopolis:brown_colored_stone"
+			x: -1.0d
+			y: 0.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "4A8890460C187295"
+			tasks: [{
+				id: "2D1E2EABC435D0AE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4D6802C263C30E37"
+				type: "item"
+				item: "caveopolis:brown_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "淺灰色石頭"
+			icon: "caveopolis:light_gray_colored_stone"
+			x: -4.0d
+			y: 1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "1FD7D1F7E8CB5D02"
+			tasks: [{
+				id: "7D203BC74C0F6131"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "30B4190AC33066C9"
+				type: "item"
+				item: "caveopolis:light_gray_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "橙色石頭"
+			icon: "caveopolis:orange_colored_stone"
+			x: -3.0d
+			y: 1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "65BCB89A29A24FE9"
+			tasks: [{
+				id: "0154A69F722B39BD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27E623C09931D258"
+				type: "item"
+				item: "caveopolis:orange_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "綠色石頭"
+			icon: "caveopolis:green_colored_stone"
+			x: -2.0d
+			y: 1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "12E5C5ED96441945"
+			tasks: [{
+				id: "03F548530133B7C0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C3F51B95F13B243"
+				type: "item"
+				item: "caveopolis:green_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "淺綠色石頭"
+			icon: "caveopolis:lime_colored_stone"
+			x: -1.0d
+			y: 1.0d
+			description: ["可以製成樓梯、牆壁、半磚與石磚。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			repeatable: true
+			id: "0F1B539756072723"
+			tasks: [{
+				id: "0B6A7AE18AFDA510"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3CBD25B49DF31F82"
+				type: "item"
+				item: "caveopolis:lime_colored_stone"
+				count: 16
+			}]
+		}
+		{
+			title: "白色電梯"
+			icon: "elevatorid:elevator_white"
+			x: 0.5d
+			y: -2.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "4A293835627900FC"
+			tasks: [{
+				id: "7B4C286F7F40F55F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2704EFD288694588"
+				type: "item"
+				item: "elevatorid:elevator_white"
+				count: 2
+			}]
+		}
+		{
+			title: "黑色電梯"
+			icon: "elevatorid:elevator_black"
+			x: 1.5d
+			y: -2.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "6FFDE58A19E23495"
+			tasks: [{
+				id: "2984B2ADE99E14DD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5FF3D4CA5F4A8FD2"
+				type: "item"
+				item: "elevatorid:elevator_black"
+				count: 2
+			}]
+		}
+		{
+			title: "紅色電梯"
+			icon: "elevatorid:elevator_red"
+			x: 2.5d
+			y: -2.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "02C4157011186AB9"
+			tasks: [{
+				id: "3B6912C0B8762010"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0B63CD92D7E969DB"
+				type: "item"
+				item: "elevatorid:elevator_red"
+				count: 2
+			}]
+		}
+		{
+			title: "黃色電梯"
+			icon: "elevatorid:elevator_yellow"
+			x: 3.5d
+			y: -2.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "2840E3F4982ED657"
+			tasks: [{
+				id: "7E08FE081F56DDAE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23DC598AE953D8A1"
+				type: "item"
+				item: "elevatorid:elevator_yellow"
+				count: 2
+			}]
+		}
+		{
+			title: "藍色電梯"
+			icon: "elevatorid:elevator_blue"
+			x: 0.5d
+			y: -1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "4C7B34D7864B4E58"
+			tasks: [{
+				id: "2D25C26515AB410B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "34456CDB91EF0395"
+				type: "item"
+				item: "elevatorid:elevator_blue"
+				count: 2
+			}]
+		}
+		{
+			title: "粉紅色電梯"
+			icon: "elevatorid:elevator_pink"
+			x: 1.5d
+			y: -1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "0BC653DB48C81E1A"
+			tasks: [{
+				id: "4160F4778BCD67AF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1053778249C8EE29"
+				type: "item"
+				item: "elevatorid:elevator_pink"
+				count: 2
+			}]
+		}
+		{
+			title: "紫色電梯"
+			icon: "elevatorid:elevator_purple"
+			x: 2.5d
+			y: -1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "4A828519EAD8C312"
+			tasks: [{
+				id: "2C5C3DED68A9CD5A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4AFDF93FF3FC39CB"
+				type: "item"
+				item: "elevatorid:elevator_purple"
+				count: 2
+			}]
+		}
+		{
+			title: "洋紅色電梯"
+			icon: "elevatorid:elevator_magenta"
+			x: 3.5d
+			y: -1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "68CF4C1A496C906D"
+			tasks: [{
+				id: "0675DA7E34E4CD6B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "226C9E0E25B0CB5B"
+				type: "item"
+				item: "elevatorid:elevator_magenta"
+				count: 2
+			}]
+		}
+		{
+			title: "淺藍色電梯"
+			icon: "elevatorid:elevator_light_blue"
+			x: 0.5d
+			y: 0.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "48D2E513C8F624C6"
+			tasks: [{
+				id: "216108CBCA295003"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F489EBC8F90B053"
+				type: "item"
+				item: "elevatorid:elevator_light_blue"
+				count: 2
+			}]
+		}
+		{
+			title: "青色電梯"
+			icon: "elevatorid:elevator_cyan"
+			x: 1.5d
+			y: 0.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "64A8D705F09B0A39"
+			tasks: [{
+				id: "2C72DA086501BE3C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "748F53C0D346D711"
+				type: "item"
+				item: "elevatorid:elevator_cyan"
+				count: 2
+			}]
+		}
+		{
+			title: "灰色電梯"
+			icon: "elevatorid:elevator_gray"
+			x: 2.5d
+			y: 0.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "142F66918CEB6BBF"
+			tasks: [{
+				id: "3BA32F9ACACD81D7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58E98882955E4B80"
+				type: "item"
+				item: "elevatorid:elevator_gray"
+				count: 2
+			}]
+		}
+		{
+			title: "棕色電梯"
+			icon: "elevatorid:elevator_brown"
+			x: 3.5d
+			y: 0.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "6812A831137658C4"
+			tasks: [{
+				id: "521487C204F14D6E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F47DD1E6AA89119"
+				type: "item"
+				item: "elevatorid:elevator_brown"
+				count: 2
+			}]
+		}
+		{
+			title: "淺灰色電梯"
+			icon: "elevatorid:elevator_light_gray"
+			x: 0.5d
+			y: 1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "3DE2995C0B3143AF"
+			tasks: [{
+				id: "3F15E806458FBA6C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3700017D71647225"
+				type: "item"
+				item: "elevatorid:elevator_light_gray"
+				count: 2
+			}]
+		}
+		{
+			title: "橙色電梯"
+			icon: "elevatorid:elevator_orange"
+			x: 1.5d
+			y: 1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "37E06C6F41B84073"
+			tasks: [{
+				id: "35F22D0D287C53E6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "771E521AF00B3FFD"
+				type: "item"
+				item: "elevatorid:elevator_orange"
+				count: 2
+			}]
+		}
+		{
+			title: "綠色電梯"
+			icon: "elevatorid:elevator_green"
+			x: 2.5d
+			y: 1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "6E7F3B24A178D3B1"
+			tasks: [{
+				id: "263165974E51379A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "455CEAC3E924468D"
+				type: "item"
+				item: "elevatorid:elevator_green"
+				count: 2
+			}]
+		}
+		{
+			title: "淺綠色電梯"
+			icon: "elevatorid:elevator_lime"
+			x: 3.5d
+			y: 1.0d
+			description: ["提供更方便的方法讓你在基地周圍上下移動。"]
+			dependencies: ["22D5A4A08E51547B"]
+			id: "564063E5F667F41A"
+			tasks: [{
+				id: "7E5B75D7F0005EC3"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23FE240B8A9E43BF"
+				type: "item"
+				item: "elevatorid:elevator_lime"
+				count: 2
+			}]
+		}
+	]
+}

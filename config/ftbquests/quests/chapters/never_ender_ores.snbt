@@ -1,0 +1,464 @@
+{
+	id: "387204109E899630"
+	group: "247F799727C527B4"
+	order_index: 1
+	filename: "never_ender_ores"
+	title: "無盡的礦物"
+	icon: "neverenderore:ore_extractor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["這是用來製作其他的無盡礦物，無盡礦物方塊無法破壞或移動，除非使用礦物移除器。"]
+			dependencies: ["03A15E9A9A032413"]
+			id: "6AA21BFE21F42D15"
+			tasks: [{
+				id: "1091767A8B1E11CF"
+				type: "item"
+				item: "astropolis:never_ender_ore_base"
+			}]
+			rewards: [{
+				id: "2B37BF6439C11D7F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "製作中"
+			description: ["用來移除無盡礦物。"]
+			dependencies: ["6AA21BFE21F42D15"]
+			id: "6441002DC33B8205"
+			tasks: [{
+				id: "29A0E87CE9D357BD"
+				type: "item"
+				item: {
+					id: "neverenderore:ore_remover"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "58F4C2C94807D0F9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["為這個方塊提供電力並在其正下方放置無盡礦石，就能無限的取得該礦物。"]
+			dependencies: ["6441002DC33B8205"]
+			id: "495108A86FEACDEE"
+			tasks: [{
+				id: "73B5D60AB056820E"
+				type: "item"
+				item: "neverenderore:ore_extractor"
+			}]
+			rewards: [{
+				id: "04A8DF84A753BC35"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["蘊魔終界珍珠。"]
+			dependencies: ["624DD8C912CAAF6D"]
+			id: "4AE1BA0FE1FEEA67"
+			tasks: [{
+				id: "053BEDA89F1899C3"
+				type: "item"
+				item: "rftoolsbase:infused_enderpearl"
+			}]
+			rewards: [{
+				id: "2B8FA64E3CABB80B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AE1BA0FE1FEEA67"
+				"495108A86FEACDEE"
+			]
+			id: "3E5A782658A70701"
+			tasks: [{
+				id: "4AA0B444D9F2F567"
+				type: "item"
+				item: "neverenderore:never_ender_coal_ore"
+			}]
+			rewards: [{
+				id: "7A1C3C4019C788B4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "5FEE4C8700AE405D"
+			tasks: [{
+				id: "576F2A1309DA12B7"
+				type: "item"
+				item: "neverenderore:never_ender_copper_ore"
+			}]
+			rewards: [{
+				id: "561301C2EF412C5A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["窩的天啊... 還來？"]
+			dependencies: [
+				"02F990AC73A71D39"
+				"7B3FDBBD7C3A8B0A"
+			]
+			id: "624DD8C912CAAF6D"
+			tasks: [{
+				id: "2523612A5614DF0D"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
+			rewards: [{
+				id: "4EB4ACB238B89639"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "107A7ADA10E96202"
+			tasks: [{
+				id: "0A0478D4ED80421D"
+				type: "item"
+				item: "neverenderore:never_ender_diamond_ore"
+			}]
+			rewards: [{
+				id: "1B13588A7D8601D7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "2465EE14137DC1F9"
+			tasks: [{
+				id: "6F4635065266D40C"
+				type: "item"
+				item: "neverenderore:never_ender_emerald_ore"
+			}]
+			rewards: [{
+				id: "2A2AE35587C993DA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "3163732D6B35FDDD"
+			tasks: [{
+				id: "13FACAFE906D4322"
+				type: "item"
+				item: "neverenderore:never_ender_gold_ore"
+			}]
+			rewards: [{
+				id: "2CFB486A3790D141"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "4899AE9F4997CACB"
+			tasks: [{
+				id: "72CDECC6444E0DB2"
+				type: "item"
+				item: "neverenderore:never_ender_iron_ore"
+			}]
+			rewards: [{
+				id: "6BAD1DAE7C500270"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "41C77FD893AFFE3F"
+			tasks: [{
+				id: "794DB27B4E6A6993"
+				type: "item"
+				item: "neverenderore:never_ender_lapis_ore"
+			}]
+			rewards: [{
+				id: "53FA83F290F615AC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "311C84092A4B7EDA"
+			tasks: [{
+				id: "2023EF703B2BAC48"
+				type: "item"
+				item: "neverenderore:never_ender_lead_ore"
+			}]
+			rewards: [{
+				id: "1D484591AC7EB7ED"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "03E41A5C33E5F9EA"
+			tasks: [{
+				id: "4358DCB8C8B59151"
+				type: "item"
+				item: "neverenderore:never_ender_nickel_ore"
+			}]
+			rewards: [{
+				id: "751968D5BE2817C2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "033D100B1D0D1A41"
+			tasks: [{
+				id: "5276A4799E90DCA3"
+				type: "item"
+				item: "neverenderore:never_ender_osmium_ore"
+			}]
+			rewards: [{
+				id: "5207758AADDC8D7F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "01F030558E5F2353"
+			tasks: [{
+				id: "24F1814395318C2C"
+				type: "item"
+				item: "neverenderore:never_ender_quartz_ore"
+			}]
+			rewards: [{
+				id: "5D702926F02454B4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "78DFCE7F6D53E321"
+			tasks: [{
+				id: "4BEE4973F51C7745"
+				type: "item"
+				item: "neverenderore:never_ender_silver_ore"
+			}]
+			rewards: [{
+				id: "1087A7F08C208B3D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "3CECC5ECD7D5B8E2"
+			tasks: [{
+				id: "7F94F6B999218CA3"
+				type: "item"
+				item: "neverenderore:never_ender_tin_ore"
+			}]
+			rewards: [{
+				id: "110C62CAEC8F42FE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "21060737D91E3B13"
+			tasks: [{
+				id: "4D22FF0284C5817D"
+				type: "item"
+				item: "neverenderore:never_ender_uranium_ore"
+			}]
+			rewards: [{
+				id: "0CF9B4B1B3F93AA8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "7AB4280EEE578CF1"
+			tasks: [{
+				id: "3846D8FDB88556F5"
+				type: "item"
+				item: "neverenderore:never_ender_aluminium_ore"
+			}]
+			rewards: [{
+				id: "5A8495FBD8609813"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"495108A86FEACDEE"
+				"4AE1BA0FE1FEEA67"
+			]
+			id: "26D0F59F279C609B"
+			tasks: [{
+				id: "4C89F73BEAED84C0"
+				type: "item"
+				item: "neverenderore:never_ender_redstone_ore"
+			}]
+			rewards: [{
+				id: "178D57823192C819"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["無盡的礦物。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AE1BA0FE1FEEA67"
+				"495108A86FEACDEE"
+			]
+			id: "4B159339C804AA77"
+			tasks: [{
+				id: "203B9A7E37489014"
+				type: "item"
+				item: "neverenderore:never_ender_sulfur_ore"
+			}]
+			rewards: [{
+				id: "68EC93D8761AE337"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

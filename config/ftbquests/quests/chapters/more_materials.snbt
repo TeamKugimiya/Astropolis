@@ -1,0 +1,522 @@
+{
+	id: "41DD613AC9983E4C"
+	group: "21D41279DA8A4EF0"
+	order_index: 1
+	filename: "more_materials"
+	title: "第一個木頭"
+	icon: "immersiveengineering:cloche"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["水滴和泥土可用來製作黏土。"]
+			dependencies: ["2F16EA8F226C62C5"]
+			id: "4BCA12C33E4A1454"
+			tasks: [{
+				id: "6BB0FBAD6B9B9FD6"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "309656E235D01C22"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["泥土可用有機粉製作。"]
+			dependencies: ["7E9CF220DE27FFFC"]
+			id: "2F16EA8F226C62C5"
+			tasks: [{
+				id: "19609499D6F78F5E"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "7608178466AE1FD8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["破壞黏土方塊。"]
+			dependencies: ["4BCA12C33E4A1454"]
+			id: "76E30865F4942F6C"
+			tasks: [{
+				id: "4713D667BD335658"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+			rewards: [{
+				id: "63C5DF79C661DDFE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["沙子可用礫石在乾燥台中製作。"]
+			dependencies: ["17645C13A71FB883"]
+			id: "3E43174B8136E18F"
+			tasks: [{
+				id: "4C44C0AF4237D805"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "58BE70BD9DED6B97"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["燒製沙子取得玻璃。"]
+			dependencies: ["3E43174B8136E18F"]
+			id: "483C972E91A1443E"
+			tasks: [{
+				id: "43E169A91EEAA50E"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+			rewards: [{
+				id: "71F41A6486206BA2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["用玻璃製作玻璃瓶。"]
+			dependencies: ["483C972E91A1443E"]
+			id: "550BFF9CDAFA49FE"
+			tasks: [{
+				id: "583323BF5A53FB55"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+			rewards: [{
+				id: "38E71CB9DC9492DC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["水滴可用來製作水瓶。"]
+			dependencies: ["550BFF9CDAFA49FE"]
+			id: "45601D8EADE7F26C"
+			tasks: [{
+				id: "05593FA2C5E37AF0"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+			}]
+			rewards: [{
+				id: "136ABC8D0E3604D8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["黏土桶模具。"]
+			dependencies: ["76E30865F4942F6C"]
+			id: "5C6622F9FEB7CBF5"
+			tasks: [{
+				id: "36D517F47A49BF96"
+				type: "item"
+				item: "ceramicbucket:unfired_clay_bucket"
+			}]
+			rewards: [{
+				id: "76D2803E461C5B5E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["一個已燒製的未燒製黏土桶。"]
+			dependencies: ["5C6622F9FEB7CBF5"]
+			id: "086B710EA64B0EF6"
+			tasks: [{
+				id: "417BD90B193A0C58"
+				type: "item"
+				item: "ceramicbucket:ceramic_bucket"
+			}]
+			rewards: [{
+				id: "79C7A0801083F981"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["很有用的一桶水！"]
+			dependencies: ["086B710EA64B0EF6"]
+			id: "589C06D5B75480D8"
+			tasks: [{
+				id: "535C19202FC1633B"
+				type: "item"
+				item: {
+					id: "ceramicbucket:ceramic_bucket"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FE652F4B936F406"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: ["讓樹苗生長。"]
+			dependencies: [
+				"15B281C4C3E0FA48"
+				"589C06D5B75480D8"
+				"6EC9D2097A60B034"
+			]
+			id: "423F83079B87996A"
+			tasks: [{
+				id: "5F88AFDECC151FC6"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "1D8CB93B7ADADD2B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["燒製黏土塊。"]
+			dependencies: ["4BCA12C33E4A1454"]
+			id: "4EBF12EA25F4C7CD"
+			tasks: [{
+				id: "61C8E50459966A12"
+				type: "item"
+				item: "minecraft:terracotta"
+			}]
+			rewards: [{
+				id: "4C4B2CABCF3CBDCD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["燒製黏土球。"]
+			dependencies: ["76E30865F4942F6C"]
+			id: "6D88BD89841797E2"
+			tasks: [{
+				id: "7D70B8B516D8FDE3"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+			rewards: [{
+				id: "4DF929A6DA336AEB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["紅磚頭可用來製作紅磚。"]
+			dependencies: ["6D88BD89841797E2"]
+			id: "623C93A9D0D25CF0"
+			tasks: [{
+				id: "2B39D84052BE1ADF"
+				type: "item"
+				item: "minecraft:bricks"
+			}]
+			rewards: [{
+				id: "7A549B7008CF1707"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: ["用來將流體導入管道和方塊中，可用桶子裝填。"]
+			dependencies: [
+				"6D88BD89841797E2"
+				"086B710EA64B0EF6"
+			]
+			id: "5A42301DCEC1BCD2"
+			tasks: [{
+				id: "798DD8EF9DA8F211"
+				type: "item"
+				item: "flopper:flopper"
+			}]
+			rewards: [{
+				id: "49B7016B0C0CE12A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["雪球。"]
+			dependencies: ["60F3BC94EDF6A755"]
+			id: "2D07C467C78D9B43"
+			tasks: [{
+				id: "35307C0C896D06B8"
+				type: "item"
+				item: "minecraft:snowball"
+			}]
+			rewards: [{
+				id: "3D00D3D24D7D9D03"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["雪方塊。"]
+			dependencies: ["2D07C467C78D9B43"]
+			id: "7CAF98CFCB24AF4F"
+			tasks: [{
+				id: "18A5B215F6DD5C73"
+				type: "item"
+				item: "minecraft:snow_block"
+			}]
+			rewards: [{
+				id: "3EC61F6A3769C809"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			description: ["更冷的冰。"]
+			dependencies: ["5B4DB3C0C71A6A9A"]
+			id: "7E7A68F0753F146E"
+			tasks: [{
+				id: "32A4BDB3C863FC89"
+				type: "item"
+				item: "minecraft:packed_ice"
+			}]
+			rewards: [{
+				id: "54DC0D353ACE0B45"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["當放在世界上時，需要在相鄰的兩側放置熱方塊和冷方塊，才能發電。"]
+			dependencies: [
+				"611EB0938023C217"
+				"63716448B80831FD"
+				"7E7A68F0753F146E"
+				"623C93A9D0D25CF0"
+			]
+			id: "6EC9D2097A60B034"
+			tasks: [{
+				id: "32FB5D717E7A865C"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "16C934BB68AAB1C1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["有機粉和人造木棒可用來製作橡木樹苗。但太空中不會生長！"]
+			dependencies: ["6066DE347097DBDF"]
+			id: "15B281C4C3E0FA48"
+			tasks: [{
+				id: "3300EAF1FA5C0335"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+			rewards: [{
+				id: "42C36D81CA299DA5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			description: ["用於傳輸電力。"]
+			dependencies: [
+				"2E8FD505DD40FAFC"
+				"6D88BD89841797E2"
+			]
+			id: "611EB0938023C217"
+			tasks: [{
+				id: "604F9DD110D9361E"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "73CD55838EC52E3C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			description: ["可以在工作台中用礫石製作，破壞礫石有時也會掉落。"]
+			dependencies: ["17645C13A71FB883"]
+			id: "2AE955E2DBD372D7"
+			tasks: [{
+				id: "2D7D5DB13AA5F053"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [{
+				id: "242CE986C324CF05"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			description: ["就是燧石方塊，溫暖宜人。"]
+			dependencies: ["2AE955E2DBD372D7"]
+			id: "63716448B80831FD"
+			tasks: [{
+				id: "2C1E227EB689FC0D"
+				type: "item"
+				item: "supplementaries:flint_block"
+			}]
+			rewards: [{
+				id: "210D9B179A65B19A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: ["用來在輸出與輸入間切換 Pipez 的管道。"]
+			dependencies: ["2AE955E2DBD372D7"]
+			id: "2E8FD505DD40FAFC"
+			tasks: [{
+				id: "7D87A1E9CC5DD9BF"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "25EDD6FC9D63880A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			description: ["儲存流體。"]
+			dependencies: ["483C972E91A1443E"]
+			id: "68FA36C248F70F53"
+			tasks: [{
+				id: "2E9F1237BA7EE172"
+				type: "item"
+				item: "ae2:sky_stone_tank"
+			}]
+			rewards: [{
+				id: "0F560EB98A49DF91"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			description: ["用來將一些基礎方塊轉換成不同版本的工具。"]
+			dependencies: ["2AE955E2DBD372D7"]
+			id: "4FA3DE3521977A16"
+			tasks: [{
+				id: "387D84388E0BB9AD"
+				type: "item"
+				item: "rechiseled:chisel"
+			}]
+			rewards: [{
+				id: "613401134F4F93A7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			description: ["破壞時隨機掉落樹苗。"]
+			dependencies: ["15B281C4C3E0FA48"]
+			id: "4AEA0470F8451224"
+			tasks: [{
+				id: "518DEBD61F5E43E9"
+				type: "item"
+				item: "cosmopolis:organic_powder_sapling_block"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "溫差越大效果越好"
+			description: [
+				"藍冰：200"
+				"冰磚：240"
+				"冰：260"
+				"雪：273"
+				"燧石：1100"
+				"岩漿塊：1300"
+				"鈾：2000"
+			]
+			dependencies: ["6EC9D2097A60B034"]
+			id: "1D763C350246970D"
+			tasks: [{
+				id: "63F11D6302D7FC60"
+				type: "checkmark"
+				title: "加熱選項"
+			}]
+			rewards: [{
+				id: "5A25C56D9F67D34D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

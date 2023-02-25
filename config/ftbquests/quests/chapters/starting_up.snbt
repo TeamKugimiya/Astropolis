@@ -1,0 +1,539 @@
+{
+	id: "7DA8651B744FDB34"
+	group: "21D41279DA8A4EF0"
+	order_index: 0
+	filename: "starting_up"
+	title: "啟航"
+	icon: {
+		id: "cosmopolis:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["4 個碎塊可製作 1 個行星石。"]
+			dependencies: ["52CAD4304AE51944"]
+			id: "44DA47B129C8D45B"
+			tasks: [{
+				id: "1108B01AC68C7144"
+				type: "item"
+				item: "cosmopolis:asteroid_block"
+			}]
+			rewards: [{
+				id: "67D70CDFAB48D1B1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: ["用石頭製作的合成台？"]
+			dependencies: ["44DA47B129C8D45B"]
+			id: "6F0AD848558A0EEA"
+			tasks: [{
+				id: "7B4C95F1751B5CBA"
+				type: "item"
+				item: "caveopolis:stone_crafting_table"
+			}]
+			rewards: [{
+				id: "644651DF0ED88CD2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: ["起始工具。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "5874C93EA7B2300E"
+			tasks: [{
+				id: "568269B89FE37BA1"
+				type: "item"
+				item: {
+					id: "cosmopolis:asteroid_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "772897A0EC013264"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			description: ["起始工具。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "768A2EF75DF92C9A"
+			tasks: [{
+				id: "20A93BB1A2742396"
+				type: "item"
+				item: {
+					id: "cosmopolis:asteroid_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5869FB39452B3694"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			description: ["起始工具。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "01FEAE736C2AFF9D"
+			tasks: [{
+				id: "5493EA43CDB88DC1"
+				type: "item"
+				item: {
+					id: "cosmopolis:asteroid_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CBEB04910F7981E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["起始工具。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "3EFBC413CAFBD1A0"
+			tasks: [{
+				id: "4C24C6D423B8E9A5"
+				type: "item"
+				item: {
+					id: "cosmopolis:asteroid_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E79EDBDD2DF2FCC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			description: ["起始工具。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "71B5F161CB5A8D1E"
+			tasks: [{
+				id: "27E16B0B1C861F6F"
+				type: "item"
+				item: {
+					id: "cosmopolis:asteroid_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6856043C28C58828"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: ["可用行星石製作。"]
+			dependencies: ["6F0AD848558A0EEA"]
+			id: "7200830BB3F3C633"
+			tasks: [{
+				id: "2787387128C9B4CE"
+				type: "item"
+				item: "caveopolis:stone_stick"
+			}]
+			rewards: [{
+				id: "051B3B349B07B4B0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["用來燒製物品，行星石碎塊能當燃料。"]
+			dependencies: ["6F0AD848558A0EEA"]
+			id: "3349332D49CEE992"
+			tasks: [{
+				id: "4C39B6CF9CD27394"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "4FE3D8DEDEF8D01F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["行星石可用手破壞取得行星石碎塊。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "52CAD4304AE51944"
+			tasks: [{
+				id: "691A6B64BAD2F314"
+				type: "item"
+				item: "cosmopolis:asteroid_rock"
+			}]
+			rewards: [{
+				id: "35F9F8D8A1BF2CF5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			description: ["用來將物品和方塊乾燥成其他物品。"]
+			dependencies: ["6066DE347097DBDF"]
+			id: "5CAD2DB612DEC96E"
+			tasks: [{
+				id: "56CB92C130652721"
+				type: "item"
+				item: "opolisutilities:drying_table"
+			}]
+			rewards: [{
+				id: "3A6130391946FC3F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["用這個鎚子破壞行星石時，會掉落不同的物品，包括水滴和冰碎片。"]
+			dependencies: ["7200830BB3F3C633"]
+			id: "711C4B58FCA3A12D"
+			tasks: [{
+				id: "60B85E692B27A965"
+				type: "item"
+				item: {
+					id: "cosmopolis:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D0099599AD4BE8B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["用錘破壞行星石有機率掉落。"]
+			dependencies: ["711C4B58FCA3A12D"]
+			id: "488FB1024915C30B"
+			tasks: [{
+				id: "16C4E10AF2AA7286"
+				type: "item"
+				item: "cosmopolis:rock"
+			}]
+			rewards: [{
+				id: "31B6EB44FF66076D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			description: ["用鎚破壞行星石有機率掉落。"]
+			dependencies: ["711C4B58FCA3A12D"]
+			id: "7E9CF220DE27FFFC"
+			tasks: [{
+				id: "07390EED9B7CFB2E"
+				type: "item"
+				item: "cosmopolis:organic_powder"
+			}]
+			rewards: [{
+				id: "31F9C618983F6AAA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			description: ["用鎚破壞行星石有機率掉落。"]
+			dependencies: ["711C4B58FCA3A12D"]
+			id: "1D9063EEEE4A24DB"
+			tasks: [{
+				id: "078B13E58F29255E"
+				type: "item"
+				item: "cosmopolis:water_drop"
+			}]
+			rewards: [{
+				id: "4D3E4048C9750373"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			description: ["拿有機粉對行星石使用將其轉換成行星木材。"]
+			dependencies: ["7E9CF220DE27FFFC"]
+			id: "7CD0951A1B142434"
+			tasks: [{
+				id: "5740670EF141C34B"
+				type: "item"
+				item: "cosmopolis:artificial_planks"
+			}]
+			rewards: [{
+				id: "67707C36EDCBD5FB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			description: ["木材製成木棒。"]
+			dependencies: ["7CD0951A1B142434"]
+			id: "6066DE347097DBDF"
+			tasks: [{
+				id: "4AB8D9D4F66317C0"
+				type: "item"
+				item: "cosmopolis:artificial_stick"
+			}]
+			rewards: [{
+				id: "0B99B28B9BC2B24E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["石頭碎塊可用來製作石頭。"]
+			dependencies: ["488FB1024915C30B"]
+			id: "0A687A4DBA399D1C"
+			tasks: [{
+				id: "1D39BB371362752C"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "408A1BA880FCC73F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["行星石碎塊和石頭碎塊的混合物。"]
+			dependencies: ["488FB1024915C30B"]
+			id: "014EC5D5F9AF53AE"
+			tasks: [{
+				id: "4712B5C3664261E7"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "1C5A29DF616318F5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			description: ["就是個木製的碗。"]
+			dependencies: ["7CD0951A1B142434"]
+			id: "17F3A37408A3F538"
+			tasks: [{
+				id: "1AEE7D7A9BE40879"
+				type: "item"
+				item: "minecraft:bowl"
+			}]
+			rewards: [{
+				id: "426D3628B0CCC00B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			description: ["好吃。"]
+			dependencies: [
+				"1D9063EEEE4A24DB"
+				"17F3A37408A3F538"
+			]
+			id: "7024CDDE0BA01F40"
+			tasks: [{
+				id: "7877D727C005C8FF"
+				type: "item"
+				item: "cosmopolis:asteroid_stew"
+			}]
+			rewards: [{
+				id: "31FEA35B5A125838"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			description: ["挖石頭取得鵝卵石。"]
+			dependencies: ["0A687A4DBA399D1C"]
+			id: "772645B720A57661"
+			tasks: [{
+				id: "61A2E66913CDBEF9"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "18B12796742ECB9B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			description: ["將鵝卵石乾燥製成礫石。"]
+			dependencies: [
+				"772645B720A57661"
+				"5CAD2DB612DEC96E"
+			]
+			id: "17645C13A71FB883"
+			tasks: [{
+				id: "27D6D096C8E4A9BC"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "172B56102D082BC5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["用錘破壞行星石有機率掉落。多餘的冰碎片可轉換成水滴。"]
+			dependencies: ["711C4B58FCA3A12D"]
+			id: "60F3BC94EDF6A755"
+			tasks: [{
+				id: "5DC97A94D941482C"
+				type: "item"
+				item: "cosmopolis:ice_shard"
+			}]
+			rewards: [{
+				id: "1FF27B5E106A0FD5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			description: ["既冰且冷。無法在太空中放置。"]
+			dependencies: ["60F3BC94EDF6A755"]
+			id: "5B4DB3C0C71A6A9A"
+			tasks: [{
+				id: "26ACCF235AA963ED"
+				type: "item"
+				item: "minecraft:ice"
+			}]
+			rewards: [{
+				id: "59D9FC72353C1F54"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			description: ["儲存這些物品。"]
+			dependencies: ["6066DE347097DBDF"]
+			id: "138232AE94A17D7B"
+			tasks: [{
+				id: "6A61B468186EADFF"
+				type: "item"
+				item: "ae2:sky_stone_chest"
+			}]
+			rewards: [{
+				id: "541E8242EBD825B9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			description: ["一個簡單的石頭製造機，能用來製作更多的行星石。"]
+			dependencies: [
+				"138232AE94A17D7B"
+				"5B4DB3C0C71A6A9A"
+			]
+			id: "71A0011360FDAF9A"
+			tasks: [{
+				id: "7821C1F399C8A682"
+				type: "item"
+				item: "opolisutilities:resource_generator"
+			}]
+			rewards: [{
+				id: "00767B56FA9E73CF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			description: ["稍微好一點的食物來源。"]
+			dependencies: ["7024CDDE0BA01F40"]
+			id: "4B7A5BFFAF3C7EF2"
+			tasks: [{
+				id: "7735165905C9E1A7"
+				type: "item"
+				item: "cosmopolis:hot_asteroid_stew"
+			}]
+			rewards: [{
+				id: "46FFB61B11F4FB6B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

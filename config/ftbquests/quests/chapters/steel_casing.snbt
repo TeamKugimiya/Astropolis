@@ -1,0 +1,368 @@
+{
+	id: "34709D29E88587D1"
+	group: "2B6989CB689DF96C"
+	order_index: 2
+	filename: "steel_casing"
+	title: "鋼質機殼"
+	icon: "mekanism:steel_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["用來製作通用機械的各種機器。"]
+			dependencies: ["0A3C8A6766234C39"]
+			id: "7906349E478C5EA1"
+			tasks: [{
+				id: "7F88BB8899695702"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [{
+				id: "00E58A30AA611B58"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["熔煉獄髓粉而成。"]
+			dependencies: ["0C03DB1F55ABB053"]
+			id: "0A3C8A6766234C39"
+			tasks: [{
+				id: "309884B73B22F0F2"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "3634D35B2698B8E9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["將物品灌注成其他東西。"]
+			dependencies: ["7906349E478C5EA1"]
+			id: "1CBFB85E1F773765"
+			tasks: [{
+				id: "4C6A6A7D8A5D44B7"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "487D59689DE317B8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["基礎電路。"]
+			dependencies: ["1CBFB85E1F773765"]
+			id: "1BC70817C4A76640"
+			tasks: [{
+				id: "466D97E4D9BFEC0E"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "5D6A68D4DBF0DE73"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["基礎合金。"]
+			dependencies: ["1CBFB85E1F773765"]
+			id: "0C549879AAC1F59C"
+			tasks: [{
+				id: "3DFAA8D2121ED340"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "0FCE078570559CB9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["金和獄髓碎片混合而成。"]
+			dependencies: ["233467A71B9D8626"]
+			id: "0C03DB1F55ABB053"
+			tasks: [{
+				id: "682E1AFB16C1E09E"
+				type: "item"
+				item: "mekanism:dust_netherite"
+			}]
+			rewards: [{
+				id: "2D99FE109A19B53E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			description: ["強化合金。"]
+			dependencies: [
+				"0C549879AAC1F59C"
+				"0E4BAFDA2F38B84E"
+			]
+			id: "1F392CD2825CE906"
+			tasks: [{
+				id: "7514CE82C8C1F764"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "189DB53B84669769"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["高級電路。"]
+			dependencies: [
+				"0C549879AAC1F59C"
+				"1BC70817C4A76640"
+			]
+			id: "4BD4C8D6125061CD"
+			tasks: [{
+				id: "71FBDE7914FCF603"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "6778B5129C73B3A1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			description: ["菁英電路。"]
+			dependencies: [
+				"1F392CD2825CE906"
+				"4BD4C8D6125061CD"
+			]
+			id: "4BC45F04DECE21AA"
+			tasks: [{
+				id: "6E3011BA0CC741C5"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "2C65359C657AF6F0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			description: ["終極電路。"]
+			dependencies: [
+				"08D10B805C778EDA"
+				"4BC45F04DECE21AA"
+			]
+			id: "34FE437499F8BCDB"
+			tasks: [{
+				id: "03958FD40927E71E"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "18FC6EFFC62A5C83"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			description: ["原子合金。"]
+			dependencies: [
+				"1F392CD2825CE906"
+				"6CBD326166648CC1"
+			]
+			id: "08D10B805C778EDA"
+			tasks: [{
+				id: "10FD4F85C58CF1EF"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [{
+				id: "2D4BA8872EAEA9B6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["用遠古遺骸製成。"]
+			dependencies: ["78C2DD2D549E5D03"]
+			id: "233467A71B9D8626"
+			tasks: [{
+				id: "354D99EC1E26007B"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [{
+				id: "4A9A52FFFC55E867"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			description: ["用鋨灌注物品。"]
+			hide_dependency_lines: true
+			dependencies: ["4BD4C8D6125061CD"]
+			id: "20945D72EA994588"
+			tasks: [{
+				id: "36E7B28450DF1146"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "277E8CEEF6C5C4A6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			description: ["用鋨壓縮機製成。"]
+			dependencies: ["037ADB2C9236B934"]
+			id: "6CBD326166648CC1"
+			tasks: [{
+				id: "0686DDF5B946537A"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [{
+				id: "5E96840A30AC61F8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			description: ["用鋨壓縮機製成。"]
+			dependencies: ["20945D72EA994588"]
+			id: "48840491836DB908"
+			tasks: [{
+				id: "66D22CF9BC48CFDF"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+			rewards: [{
+				id: "6EC97FD02DD98A3E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			description: ["用來製作原子合金，用富集黑曜石會更有效率。"]
+			dependencies: ["20945D72EA994588"]
+			id: "037ADB2C9236B934"
+			tasks: [{
+				id: "1BA11DDC1F0F2D75"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+			}]
+			rewards: [{
+				id: "595D1D554E8DFDB5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["粉碎物品。"]
+			hide_dependency_lines: true
+			dependencies: ["1BC70817C4A76640"]
+			id: "797108281208D7B8"
+			tasks: [{
+				id: "007CC252D7AA2E78"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "1EA755EAE4DA6A8B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: ["用來製作強化合金，用富集鑽石會更有效率。"]
+			dependencies: ["797108281208D7B8"]
+			id: "0E4BAFDA2F38B84E"
+			tasks: [{
+				id: "776533136AFDAE67"
+				type: "item"
+				item: "mekanism:dust_diamond"
+			}]
+			rewards: [{
+				id: "13CFFE141C71334D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["797108281208D7B8"]
+			id: "23DC8A0ED206535E"
+			tasks: [{
+				id: "3721C56F76B61812"
+				type: "item"
+				item: "mekanism:dust_emerald"
+			}]
+			rewards: [{
+				id: "59EF4D1E5F0B07DC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			description: ["用來傳輸能量，物品，流體和氣體，可以遠距離傳輸並跨維度。"]
+			dependencies: ["34FE437499F8BCDB"]
+			id: "3E00B0FB0862A855"
+			tasks: [{
+				id: "1C8329FD9A971C7B"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "2C245FCF0A81CAD1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

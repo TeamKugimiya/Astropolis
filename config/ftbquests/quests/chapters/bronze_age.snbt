@@ -1,0 +1,406 @@
+{
+	id: "24627E0B323DFC39"
+	group: "21D41279DA8A4EF0"
+	order_index: 3
+	filename: "bronze_age"
+	title: "水晶培育"
+	icon: "geodeopolis:cluster_template"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["放置成 2x2x2 的多方塊結構並使用工程師錘子製成合金窯。"]
+			dependencies: ["6A9C3AA9F40531A0"]
+			id: "667D873A79451A8B"
+			tasks: [{
+				id: "368D3D7D182EA02E"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+			rewards: [{
+				id: "54403F9130CE889E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["一個由銅和錫製成的合金，能在合金窯中製作。"]
+			dependencies: ["667D873A79451A8B"]
+			id: "4425754D15691AAC"
+			tasks: [{
+				id: "5D96564681DE005B"
+				type: "item"
+				item: "mekanism:ingot_bronze"
+			}]
+			rewards: [{
+				id: "318CC2D30D9F9116"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["礦工研究包能用來製作各種礦物芽床。"]
+			dependencies: ["4425754D15691AAC"]
+			id: "0FC788269CBE0357"
+			tasks: [{
+				id: "743380F59A31EE1B"
+				type: "item"
+				item: "astropolis:miners_research_pack"
+			}]
+			rewards: [{
+				id: "485A83B2FAEB49E0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["發光石的掉落物。"]
+			dependencies: ["2934F2F3254E7A42"]
+			id: "4EBD65C43DB02C17"
+			tasks: [{
+				id: "7A9494CA71089F53"
+				type: "item"
+				item: "caveopolis:bright_shard"
+			}]
+			rewards: [{
+				id: "4E590B098AD71F49"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["4EBD65C43DB02C17"]
+			id: "08196C6D5F73A1E3"
+			tasks: [{
+				id: "0A17DAE1BE2D24A5"
+				type: "item"
+				item: "geodeopolis:budding_copper"
+			}]
+			rewards: [{
+				id: "342DB241C422204C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["4EBD65C43DB02C17"]
+			id: "44578AEF2CFCD0E7"
+			tasks: [{
+				id: "35E3F9D30D557EBB"
+				type: "item"
+				item: "geodeopolis:budding_coal"
+			}]
+			rewards: [{
+				id: "48BCFA62F7359C4F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["4EBD65C43DB02C17"]
+			id: "6D13E0859D05C7A1"
+			tasks: [{
+				id: "7F0A808F04327E90"
+				type: "item"
+				item: "geodeopolis:budding_tin"
+			}]
+			rewards: [{
+				id: "62D13198E8323006"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["用石頭和礦工研究包製作。破壞時掉落發光碎片。"]
+			dependencies: ["0FC788269CBE0357"]
+			id: "2934F2F3254E7A42"
+			tasks: [{
+				id: "751D39CF41B468B7"
+				type: "item"
+				item: "caveopolis:bright_stone"
+			}]
+			rewards: [{
+				id: "747504ACAF17A03E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["用來在玻璃園藝溫室罩中種植晶簇。"]
+			dependencies: ["4EBD65C43DB02C17"]
+			id: "6CE6C3ED3351F959"
+			tasks: [{
+				id: "411C2BEE42C1D557"
+				type: "item"
+				item: "geodeopolis:cluster_template"
+			}]
+			rewards: [{
+				id: "03D51D71DD4D6A12"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["08196C6D5F73A1E3"]
+			id: "660DFC02DC83FA0C"
+			tasks: [{
+				id: "6A802222A6C15D2A"
+				type: "item"
+				item: "geodeopolis:copper_cluster"
+			}]
+			rewards: [{
+				id: "7E1918B796F51582"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["44578AEF2CFCD0E7"]
+			id: "0EC828AF356BE922"
+			tasks: [{
+				id: "3D4D0DA8706ED122"
+				type: "item"
+				item: "geodeopolis:coal_cluster"
+			}]
+			rewards: [{
+				id: "25DCE5463628C018"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["6D13E0859D05C7A1"]
+			id: "3407DF972564E7A7"
+			tasks: [{
+				id: "20CB63A2F5842170"
+				type: "item"
+				item: "geodeopolis:tin_cluster"
+			}]
+			rewards: [{
+				id: "130882C1790C43D0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["660DFC02DC83FA0C"]
+			id: "4E73B1CA2192CDB7"
+			tasks: [{
+				id: "16ABC4350A932413"
+				type: "item"
+				item: "geodeopolis:copper_shard"
+			}]
+			rewards: [{
+				id: "5FDD474E262719C1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["0EC828AF356BE922"]
+			id: "78BF0A76986B7DB2"
+			tasks: [{
+				id: "3A43E1A9F88AEEC8"
+				type: "item"
+				item: "geodeopolis:coal_shard"
+			}]
+			rewards: [{
+				id: "6B1FEB1D3D365ECF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["3407DF972564E7A7"]
+			id: "42EDD9BCE0E3EC85"
+			tasks: [{
+				id: "4629D83F4A5EF7F9"
+				type: "item"
+				item: "geodeopolis:tin_shard"
+			}]
+			rewards: [{
+				id: "48D6EE63CFADC7D3"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.0d
+			description: ["堅硬的棒棒。"]
+			dependencies: ["2081F70CFEB58494"]
+			id: "5CE5DB36EE2A68B6"
+			tasks: [{
+				id: "5834C2924D1CB2CD"
+				type: "item"
+				item: "engineersdecor:metal_bar"
+			}]
+			rewards: [{
+				id: "4F20EB5F79D53EDF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			description: ["在焦爐中製成。"]
+			dependencies: [
+				"721697F5D7CD5AD6"
+				"2081F70CFEB58494"
+			]
+			id: "5F99A5A7920CEF25"
+			tasks: [{
+				id: "31C1F491F054FDB1"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+			rewards: [{
+				id: "17E3C09A424BE4D9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			description: ["熔煉物品時很有用。"]
+			dependencies: ["78BF0A76986B7DB2"]
+			id: "2081F70CFEB58494"
+			tasks: [{
+				id: "288BEAE80DE461DD"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "241BA64A97B8AF11"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["4EBD65C43DB02C17"]
+			id: "00520CCC90B074D1"
+			tasks: [{
+				id: "17F62F0CED909910"
+				type: "item"
+				item: "minecraft:budding_amethyst"
+			}]
+			rewards: [{
+				id: "31AEE578FCE2C1F7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["00520CCC90B074D1"]
+			id: "2E8B6F6159FF8F02"
+			tasks: [{
+				id: "152879EF13A66E01"
+				type: "item"
+				item: "minecraft:amethyst_cluster"
+			}]
+			rewards: [{
+				id: "7EA519A10D157C0A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			description: ["破壞晶簇時掉落，或用粉碎機製成。"]
+			dependencies: ["2E8B6F6159FF8F02"]
+			id: "4C6A46EE935EBF18"
+			tasks: [{
+				id: "2A091D68ECAF337B"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+			rewards: [{
+				id: "20F9B6A488B2954C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			description: ["儲存流體，破壞時會保存流體。"]
+			dependencies: ["5CE5DB36EE2A68B6"]
+			id: "34B22035DA5F2B48"
+			tasks: [{
+				id: "539F6DEAD8CE4059"
+				type: "item"
+				item: "engineersdecor:fluid_barrel"
+			}]
+			rewards: [{
+				id: "00A9ADB0C0FAD681"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			description: ["提供水和電製作冰，下方放置漏斗會自動導出製作好的冰。"]
+			dependencies: ["34B22035DA5F2B48"]
+			id: "1132792E02BBDE16"
+			tasks: [{
+				id: "6D2F68D9C1597272"
+				type: "item"
+				item: "engineersdecor:small_freezer"
+			}]
+			rewards: [{
+				id: "0D179592EF550AAB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

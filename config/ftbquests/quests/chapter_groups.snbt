@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "0D2AD34C2CBF122F", title: "歡迎來到星域歸鄉" }
+		{ id: "4084AAEFF25CED3D", title: "星域市集" }
+		{ id: "21D41279DA8A4EF0", title: "初始的小行星" }
+		{ id: "340DA8E9F6F96A5B", title: "鐵" }
+		{ id: "5ABCAD26A5B5A9FC", title: "採礦行星帶" }
+		{ id: "2B6989CB689DF96C", title: "金星" }
+		{ id: "247F799727C527B4", title: "月球" }
+		{ id: "64D925DE5BD6613C", title: "火星" }
+		{ id: "62DD82AAB9CD0D19", title: "甜蜜的家" }
+	]
+}

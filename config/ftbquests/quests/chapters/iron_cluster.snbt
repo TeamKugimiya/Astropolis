@@ -1,0 +1,659 @@
+{
+	id: "5E5F5B372A12877D"
+	group: "340DA8E9F6F96A5B"
+	order_index: 0
+	filename: "iron_cluster"
+	title: "鐵晶簇"
+	icon: "geodeopolis:iron_cluster"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["在高爐中製成。"]
+			dependencies: ["5CE5DB36EE2A68B6"]
+			id: "06510C8B2D73CD70"
+			tasks: [{
+				id: "541FA3CBE87599CA"
+				type: "item"
+				item: "minecraft:iron_nugget"
+			}]
+			rewards: [{
+				id: "667CDAF6F44A4DDD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["粒可轉換成錠。"]
+			dependencies: ["06510C8B2D73CD70"]
+			id: "6B7E0F47B11A8B79"
+			tasks: [{
+				id: "38E9BAF5C05DF4D7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "787D0B84572D9D2C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["6B7E0F47B11A8B79"]
+			id: "41949218E8FB802A"
+			tasks: [{
+				id: "0AB19C0019D589BA"
+				type: "item"
+				item: "geodeopolis:budding_iron"
+			}]
+			rewards: [{
+				id: "77F64526C5967D18"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["在高爐中製成。"]
+			dependencies: ["6B7E0F47B11A8B79"]
+			id: "4238ADAB7FC25FDE"
+			tasks: [{
+				id: "0F55CF9E80F81F25"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+			rewards: [{
+				id: "3525F41907BDC763"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["41949218E8FB802A"]
+			id: "26695394549D0098"
+			tasks: [{
+				id: "681CD82FC32CFE4F"
+				type: "item"
+				item: "geodeopolis:iron_cluster"
+			}]
+			rewards: [{
+				id: "63640134928263A0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["26695394549D0098"]
+			id: "528BD6058609316B"
+			tasks: [{
+				id: "12DDFD04FDE67212"
+				type: "item"
+				item: "geodeopolis:iron_shard"
+			}]
+			rewards: [{
+				id: "6208882882939B9A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["用來製作各種機器。"]
+			dependencies: ["4238ADAB7FC25FDE"]
+			id: "30E2E07385680C87"
+			tasks: [{
+				id: "63AFB657092D127E"
+				type: "item"
+				item: "astropolis:machinist_research_pack"
+			}]
+			rewards: [{
+				id: "70404143C42F24CD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["移動方塊。"]
+			dependencies: ["30E2E07385680C87"]
+			id: "28267DC21EE4B837"
+			tasks: [{
+				id: "722B576BFE8343A6"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+			rewards: [{
+				id: "7824C499A4C2C845"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["在工作台中製作，或使用金屬沖壓機能更省材料的製作。"]
+			dependencies: ["4238ADAB7FC25FDE"]
+			id: "78E8F72B82C81AB1"
+			tasks: [{
+				id: "5A8C511809883025"
+				type: "item"
+				item: "immersiveengineering:stick_steel"
+			}]
+			rewards: [{
+				id: "4F26A5E04915EE20"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["用來製作沉浸工程的多方塊結構機器，也是個可攀爬的方塊。"]
+			dependencies: ["78E8F72B82C81AB1"]
+			id: "0FF0A99241EFD711"
+			tasks: [{
+				id: "6E68015A5F638E5F"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+			rewards: [{
+				id: "3A140D9B079CC26F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["用來製作沉浸工程的多方塊結構機器。"]
+			dependencies: ["30E2E07385680C87"]
+			id: "0BA66D77ACAE9931"
+			tasks: [{
+				id: "650CC4EEC4CFFDF7"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			rewards: [{
+				id: "1B0154FADEC41859"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["用來製作重型工程方塊。"]
+			dependencies: ["4238ADAB7FC25FDE"]
+			id: "1959835F0B0F27F7"
+			tasks: [{
+				id: "6E01FC4E8F42FF86"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
+			rewards: [{
+				id: "212D0543F6638450"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			description: ["用來製作沉浸工程的多方塊結構機器。"]
+			dependencies: ["1959835F0B0F27F7"]
+			id: "29010EDA0698FF13"
+			tasks: [{
+				id: "7833DA80AE14BCE6"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			rewards: [{
+				id: "709C956DD7BBB0A0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			description: ["種植工業大麻。"]
+			dependencies: ["423F83079B87996A"]
+			id: "22412E5380C166F0"
+			tasks: [{
+				id: "5C69DDD024915F75"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+			rewards: [{
+				id: "3A669C2E0B424A19"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			description: ["種植工業大麻種子的作物。"]
+			dependencies: ["22412E5380C166F0"]
+			id: "2DEB85458AC3A919"
+			tasks: [{
+				id: "4501B9269FB6815B"
+				type: "item"
+				item: "immersiveengineering:hemp_fiber"
+			}]
+			rewards: [{
+				id: "3AE99B617581413C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			description: ["用工業大麻纖維製成。"]
+			dependencies: ["2DEB85458AC3A919"]
+			id: "1CCF62E03C036629"
+			tasks: [{
+				id: "23F586556ECE1D5D"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "26FC8193E11721F3"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["用工業大麻纖維製作。"]
+			dependencies: ["2DEB85458AC3A919"]
+			id: "13653CE2F66D9D4B"
+			tasks: [{
+				id: "46CE688DFE22FBE6"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+			}]
+			rewards: [{
+				id: "19011984D9C50EE2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["假皮革。"]
+			dependencies: ["13653CE2F66D9D4B"]
+			id: "2AFE2EFCE4EE8E64"
+			tasks: [{
+				id: "0C219698C728DE49"
+				type: "item"
+				item: "immersiveengineering:ersatz_leather"
+			}]
+			rewards: [{
+				id: "7929C9326754DCAA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: ["用來製作沉浸工程的多方塊結構機器，也能用來傳輸物品。"]
+			dependencies: [
+				"30E2E07385680C87"
+				"2AFE2EFCE4EE8E64"
+			]
+			id: "6DFE93E573C412FF"
+			tasks: [{
+				id: "44346A6604F7DD85"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "3F7A77F4BBBE1EC6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			description: ["用線製成的方塊，在太空中請勿作床，它會爆炸且害死你。"]
+			dependencies: ["1CCF62E03C036629"]
+			id: "549C6BC5267AE604"
+			tasks: [{
+				id: "1B4799D05708D225"
+				type: "item"
+				item: "minecraft:white_wool"
+			}]
+			rewards: [{
+				id: "6E71E57E1EFCF557"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: ["用來製作沉浸工程的多方塊結構機器。"]
+			dependencies: ["30E2E07385680C87"]
+			id: "4ADABD46D108AC54"
+			tasks: [{
+				id: "2F327F4E09000CC8"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+			rewards: [{
+				id: "4CD4EF0A1B9AEF68"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["更好的電線，同時也解鎖了商店中的重力發電機。"]
+			dependencies: ["30E2E07385680C87"]
+			id: "3F7FA71D8AD3D01A"
+			tasks: [{
+				id: "0252FE1E2C7DF11C"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+			rewards: [{
+				id: "45629DCCCD6CF5EE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			description: ["儲存電力。"]
+			dependencies: ["3F7FA71D8AD3D01A"]
+			id: "5B46B581BE1FCF98"
+			tasks: [{
+				id: "75DCC2CA04F31CB7"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [{
+				id: "271A1BA7EC229D63"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["在乾燥台中製成。"]
+			dependencies: ["2AFE2EFCE4EE8E64"]
+			id: "09ED5A808CDFA554"
+			tasks: [{
+				id: "42D241A3E2D28DE5"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [{
+				id: "2873908EF506E5C7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: ["破壞時會隨機掉落種子。"]
+			dependencies: ["22412E5380C166F0"]
+			id: "3FB1C6203AD86E9C"
+			tasks: [{
+				id: "5B91551E5713E128"
+				type: "item"
+				item: "cosmopolis:organic_powder_seed_block"
+			}]
+			rewards: [{
+				id: "243A03CC6583CE4E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			description: ["破壞時會隨機掉落蘑菇。"]
+			dependencies: [
+				"3FB1C6203AD86E9C"
+				"1CCF62E03C036629"
+			]
+			id: "129649A1B03DF9DF"
+			tasks: [{
+				id: "337A24AFABFA1900"
+				type: "item"
+				item: "cosmopolis:organic_powder_fungus_block"
+			}]
+			rewards: [{
+				id: "550D06DC6595AA8D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["就是個鐵桶。"]
+			dependencies: ["6B7E0F47B11A8B79"]
+			id: "5BFBE782776668A0"
+			tasks: [{
+				id: "56C5DD0EF1B36311"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+			rewards: [{
+				id: "326E37E7E6500609"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["用水滴和人造皮製成。"]
+			dependencies: ["2AFE2EFCE4EE8E64"]
+			id: "1844FDC68076EEFC"
+			tasks: [{
+				id: "7FD45C40E3F4554A"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+			rewards: [{
+				id: "30ED442E5EA55F7E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			description: ["新的食物。"]
+			dependencies: ["3FB1C6203AD86E9C"]
+			id: "113381363CEC38CE"
+			tasks: [{
+				id: "0D12A2A9434D7637"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "1273DB4DCDC8107B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			description: ["新的食物。"]
+			dependencies: ["3FB1C6203AD86E9C"]
+			id: "617ED2DED8E55C11"
+			tasks: [{
+				id: "760EA5C7AD3964D7"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "35B0351F56171EB5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			description: ["新的食物。"]
+			dependencies: ["3FB1C6203AD86E9C"]
+			id: "40CA0840B0FAA378"
+			tasks: [{
+				id: "2CF208BEA5FB31EC"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "55A015AF5A86697A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["傳輸流體。"]
+			dependencies: ["6B7E0F47B11A8B79"]
+			id: "23CAC10F34F39C84"
+			tasks: [{
+				id: "3193ADA973806521"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "62A2974B29A91BC6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["產生水。"]
+			dependencies: ["6464BEBA7DD0C062"]
+			id: "20B4D1A83FD49B5B"
+			tasks: [{
+				id: "4CC6EAF7A285C07B"
+				type: "item"
+				item: "watersources:water_source_tier_1"
+			}]
+			rewards: [{
+				id: "1D8AC18A8DBB520E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["用來製作無限水源。"]
+			dependencies: ["5DCC539833EA74C6"]
+			id: "6464BEBA7DD0C062"
+			tasks: [{
+				id: "787801FD060BB80D"
+				type: "item"
+				item: "astropolis:water_core"
+			}]
+			rewards: [{
+				id: "45BFC98159016B6C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["5BFBE782776668A0"]
+			id: "5DCC539833EA74C6"
+			tasks: [{
+				id: "7BDE93776D6FA98E"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "4AFFA6202FB0FBC2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			description: ["隨身攜帶的儲存工具，Shift 右鍵能在世界上放置。"]
+			dependencies: ["2AFE2EFCE4EE8E64"]
+			id: "24DA59EE89063397"
+			tasks: [{
+				id: "7EA14DDB3107061C"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+						contentsUuid: [I;
+							-1526951056
+							-379304924
+							-1286510055
+							-1748145302
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "37627DBDFA2A1266"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			description: ["用來調整通用機械的管道。"]
+			dependencies: ["3F7FA71D8AD3D01A"]
+			id: "376792DCF8B69E1E"
+			tasks: [{
+				id: "0C9D6BED4D70306A"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [{
+				id: "0F507D9414EDB4A9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

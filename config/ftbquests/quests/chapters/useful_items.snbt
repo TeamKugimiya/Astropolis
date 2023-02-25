@@ -1,0 +1,443 @@
+{
+	id: "4E99FE1189B1EFBB"
+	group: "4084AAEFF25CED3D"
+	order_index: 2
+	filename: "useful_items"
+	title: "實用物品"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "通量網路輸入點"
+			icon: "fluxnetworks:flux_plug"
+			x: 0.0d
+			y: 0.0d
+			description: ["因為製作它們很麻煩，所以它們非常有用，對吧？"]
+			dependencies: ["5227D6E200EB871C"]
+			repeatable: true
+			id: "18C98C900AD4FCF7"
+			tasks: [{
+				id: "25DD064006B11651"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63FBC830539D7AEC"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+				count: 2
+			}]
+		}
+		{
+			title: "通量網路存取點"
+			icon: "fluxnetworks:flux_point"
+			x: 1.0d
+			y: 0.0d
+			description: ["因為製作它們很麻煩，所以它們非常有用，對吧？"]
+			dependencies: ["7EBFD190F3D35363"]
+			repeatable: true
+			id: "02E2B9D6D12FBBCD"
+			tasks: [{
+				id: "7D0751F1C0FA8EDF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4252C9625CA454B3"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+				count: 2
+			}]
+		}
+		{
+			title: "時間之瓶"
+			icon: {
+				id: "tiab:time_in_a_bottle"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.5d
+			y: -1.0d
+			description: ["儲存時間，可以用來加速方塊的運作速度。"]
+			dependencies: ["22D5A4A08E51547B"]
+			repeatable: true
+			id: "58C02E4DAD06D07C"
+			tasks: [{
+				id: "55E6D4A65425DEFE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D7F904F72C040CA"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "超級回家石"
+			icon: {
+				id: "opolisutilities:super_home_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -1.0d
+			description: ["用來在任何維度中傳送至已儲存的位置。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			repeatable: true
+			id: "3C3E6AA9A52918C3"
+			tasks: [{
+				id: "0046CC6686231FEA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54477867F6460C0F"
+				type: "item"
+				item: {
+					id: "opolisutilities:super_home_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "金錢的聲音"
+			x: 0.0d
+			y: -2.0d
+			description: ["萬一你沒有完成任務線，買一下這個聲音過過乾癮，愛你的 Ben （模組包作者）。"]
+			repeatable: true
+			id: "6E6A41A2ED66D7FC"
+			tasks: [{
+				id: "388A69189E2737EB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D9329367EE23601"
+				type: "command"
+				auto: "enabled"
+				command: "/playsound minecraft:ui.toast.challenge_complete ambient @p ~ ~ ~"
+				player_command: true
+			}]
+		}
+		{
+			title: "沉浸工程手冊"
+			icon: "immersiveengineering:manual"
+			x: 1.0d
+			y: -2.0d
+			description: ["一本多餘的沉靜工程手冊。"]
+			dependencies: ["578978E4F1F0CFC5"]
+			repeatable: true
+			id: "4BD1D866AA4E4B65"
+			tasks: [{
+				id: "134758C8CFA1A403"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "549D307068C4A749"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "行李箱怪"
+			icon: "luggage:luggage"
+			x: 1.5d
+			y: -1.0d
+			description: ["一個友善的行李箱怪，幫你攜帶物品。Shift 鍵右鍵點擊可將它撿起。"]
+			dependencies: ["138232AE94A17D7B"]
+			repeatable: true
+			id: "53B061DB3D80F83B"
+			tasks: [{
+				id: "5FE7649BFA548973"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0EC8A64F562C1E72"
+				type: "item"
+				item: "luggage:luggage"
+			}]
+		}
+		{
+			title: "餵食升級"
+			icon: "sophisticatedbackpacks:feeding_upgrade"
+			x: 4.0d
+			y: -2.0d
+			description: ["自動餵食戴著背包的玩家。"]
+			repeatable: true
+			id: "4CAC59F42E97FCED"
+			tasks: [{
+				id: "0A583BDFB43BE636"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2DBBF5EC2CC8FA13"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			title: "磁鐵升級"
+			icon: "sophisticatedbackpacks:magnet_upgrade"
+			x: 6.0d
+			y: -1.5d
+			description: ["讓背包可以自動收集附近的物品。"]
+			repeatable: true
+			id: "7728E864FF7AE123"
+			tasks: [{
+				id: "3B3E7EEEB973C900"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "66DF0355F81A764B"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		}
+		{
+			title: "壓縮升級"
+			icon: "sophisticatedbackpacks:compacting_upgrade"
+			x: 5.0d
+			y: -2.0d
+			description: ["讓背包可以壓縮物品。"]
+			repeatable: true
+			id: "68BDEE3E23C676F8"
+			tasks: [{
+				id: "2853BEE6D8BD09B4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15724C73FE398098"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+		}
+		{
+			title: "永恆升級"
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
+			x: 6.0d
+			y: -0.5d
+			description: ["讓背包免疫虛空和消失。"]
+			repeatable: true
+			id: "167C7BB5159AE3A2"
+			tasks: [{
+				id: "0790A62C41CF34E7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C9B1D1F19996959"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		}
+		{
+			title: "熔煉升級"
+			icon: "sophisticatedbackpacks:smelting_upgrade"
+			x: 4.0d
+			y: -1.0d
+			description: ["讓背包有熔爐的功能。"]
+			repeatable: true
+			id: "40BC26B5C3D5FBE1"
+			tasks: [{
+				id: "3A8E2E91D99E2233"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0BF0E10ED6D42C1F"
+				type: "item"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+			}]
+		}
+		{
+			title: "合成升級"
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			x: 4.0d
+			y: 0.0d
+			description: ["讓背包可以合成台的功能。"]
+			repeatable: true
+			id: "4DC75BD8EDB07A0B"
+			tasks: [{
+				id: "7385A83E80FA7E1E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5ABCC8973EA1A6A9"
+				type: "item"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		}
+		{
+			title: "儲罐升級"
+			icon: "sophisticatedbackpacks:tank_upgrade"
+			x: 5.0d
+			y: -1.0d
+			description: ["讓背包能儲存流體。"]
+			repeatable: true
+			id: "4AB1BD78640DCCC4"
+			tasks: [{
+				id: "07C605C21D0CBAE5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "461DA8A000FB770D"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+		}
+		{
+			title: "電池升級"
+			icon: "sophisticatedbackpacks:battery_upgrade"
+			x: 5.0d
+			y: 0.0d
+			description: ["讓背包能儲存電力。"]
+			repeatable: true
+			id: "2CE39CD60C94A1FB"
+			tasks: [{
+				id: "647C8103D26D9967"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "300C22BBAAA6FA19"
+				type: "item"
+				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+		}
+		{
+			title: "重力發電機"
+			icon: "cosmopolis:gravity_generator"
+			x: -1.0d
+			y: 0.0d
+			description: ["根據放置的維度產生能源，不會儲存 RF。"]
+			dependencies: ["3F7FA71D8AD3D01A"]
+			repeatable: true
+			id: "46D12B2A4E87768F"
+			tasks: [{
+				id: "08BEFE7A2E037E47"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 40L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D31CFA2948F8B65"
+				type: "item"
+				item: "cosmopolis:gravity_generator"
+			}]
+		}
+		{
+			title: "懸浮方塊"
+			icon: "opolisutilities:floating_block_item"
+			x: -1.0d
+			y: -2.0d
+			description: ["在空氣中懸浮而無需方塊支撐的方塊。"]
+			repeatable: true
+			id: "6A9C425B7656B5DA"
+			tasks: [{
+				id: "61F96BD4B289AC62"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7811296AE0E91347"
+				type: "item"
+				item: "opolisutilities:floating_block_item"
+			}]
+		}
+		{
+			title: "終界箱"
+			icon: "enderstorage:ender_chest"
+			x: -1.5d
+			y: -1.0d
+			description: ["跨維度移動物品"]
+			dependencies: ["2BF43ABD698251A2"]
+			repeatable: true
+			id: "276F94288631F6F3"
+			tasks: [{
+				id: "784A749CDC51004A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F366205A79029EF"
+				type: "item"
+				item: "enderstorage:ender_chest"
+				count: 2
+			}]
+		}
+		{
+			title: "終界蓄水槽"
+			icon: "enderstorage:ender_tank"
+			x: -2.5d
+			y: -1.0d
+			description: ["跨維度移動流體"]
+			dependencies: ["2BF43ABD698251A2"]
+			repeatable: true
+			id: "6DCA96BAB6BD2712"
+			tasks: [{
+				id: "002CCFD122904ADC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "79C637454C9F7948"
+				type: "item"
+				item: "enderstorage:ender_tank"
+				count: 2
+			}]
+		}
+	]
+}

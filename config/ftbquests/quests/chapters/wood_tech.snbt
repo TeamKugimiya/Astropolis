@@ -1,0 +1,518 @@
+{
+	id: "77EE7C025E630445"
+	group: "21D41279DA8A4EF0"
+	order_index: 2
+	filename: "wood_tech"
+	title: "木頭科技"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "原木"
+			x: 0.0d
+			y: 0.0d
+			description: ["這會花點時間..."]
+			dependencies: ["15B281C4C3E0FA48"]
+			id: "775F56BEF4137CF6"
+			tasks: [{
+				id: "02FDE1A136965C17"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EE2A5095BF09DAA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "木材"
+			x: 0.0d
+			y: -1.0d
+			description: ["原木製成木材。"]
+			dependencies: ["775F56BEF4137CF6"]
+			id: "18D2109E7163C21A"
+			tasks: [{
+				id: "0D740EC6E365A87E"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ED307213E4E158E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["木材製成木棒。"]
+			dependencies: ["18D2109E7163C21A"]
+			id: "4B91E965EA9969C5"
+			tasks: [{
+				id: "2E0AD168CE171BE2"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "623E91187D385A6B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["更好的熔爐燃料。"]
+			dependencies: ["775F56BEF4137CF6"]
+			id: "5FB86A8B73F7D43F"
+			tasks: [{
+				id: "342B621C1488B8F0"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+			rewards: [{
+				id: "3EE32BCB9CE203B9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["能剛好熔煉一個物品。"]
+			dependencies: ["5FB86A8B73F7D43F"]
+			id: "5F11758BA30A14AB"
+			tasks: [{
+				id: "30F2F225BE6BBD79"
+				type: "item"
+				item: "cosmopolis:mini_charcoal"
+			}]
+			rewards: [{
+				id: "2603275689CAC2A5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "儲物箱"
+			x: -1.0d
+			y: -1.0d
+			description: ["更多儲物箱。"]
+			dependencies: ["18D2109E7163C21A"]
+			id: "3F16A69720BFB822"
+			tasks: [{
+				id: "2279A65144F4F4C4"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "030BDC7160729F0D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["傳輸物品。"]
+			dependencies: ["3F16A69720BFB822"]
+			id: "4C666277098E3E39"
+			tasks: [{
+				id: "49FE67A89A790FA5"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "543D541A2137E448"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["燻製原木製作灰燼。"]
+			dependencies: ["1A5063D026C316FE"]
+			id: "1F1983CB009FC9A5"
+			tasks: [{
+				id: "756DF34ADB181525"
+				type: "item"
+				item: "supplementaries:ash"
+			}]
+			rewards: [{
+				id: "6A7098ED25DA8592"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["熔煉灰燼製作灰燼磚頭。"]
+			dependencies: ["1F1983CB009FC9A5"]
+			id: "6A9C3AA9F40531A0"
+			tasks: [{
+				id: "0E6EC308E478782A"
+				type: "item"
+				item: "supplementaries:ash_brick"
+			}]
+			rewards: [{
+				id: "49C01ABECDEF47A8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["用來製作沉浸工程的多方塊結構。"]
+			dependencies: ["6A9C3AA9F40531A0"]
+			id: "578978E4F1F0CFC5"
+			tasks: [{
+				id: "20850957D6720B22"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37E7AEB62BBA76EC"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+				{
+					id: "4D9710E88D19AECF"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["放置成 3x3x3 的多方塊結構並使用工程師錘子製成高爐。這能用來將某些方塊分解成特定的金屬粒。"]
+			dependencies: ["578978E4F1F0CFC5"]
+			id: "2D1318EDA00ECA97"
+			tasks: [{
+				id: "244D4118CA470979"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+			rewards: [{
+				id: "05FFCC417A9137EA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["燻製物品。"]
+			dependencies: ["775F56BEF4137CF6"]
+			id: "1A5063D026C316FE"
+			tasks: [{
+				id: "443680DB83AD860E"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "01A12B770FB5B387"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["放置成 3x3x3 的多方塊結構並使用工程師槌子製成焦爐。"]
+			dependencies: ["6A9C3AA9F40531A0"]
+			id: "721697F5D7CD5AD6"
+			tasks: [{
+				id: "58C8D85F2C683051"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+			rewards: [{
+				id: "55A046AD54E4B585"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["用雜酚油和木材製成。"]
+			dependencies: ["721697F5D7CD5AD6"]
+			id: "0AAE6A63CAE81078"
+			tasks: [{
+				id: "741FED62899444F0"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "4A0B21E53B753FE7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["和藍圖一起使用製作物品。"]
+			dependencies: ["0AAE6A63CAE81078"]
+			id: "22D5A4A08E51547B"
+			tasks: [{
+				id: "1AA1ECBD7B356223"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "0A872C886707C2C7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			description: ["在高爐中製成。"]
+			dependencies: ["2D1318EDA00ECA97"]
+			id: "72CD470A84E470B9"
+			tasks: [{
+				id: "3F091A471A2B1024"
+				type: "item"
+				item: "opolisutilities:copper_nugget"
+			}]
+			rewards: [{
+				id: "286F44F2D802C0A4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			description: ["粒可轉換成錠。"]
+			dependencies: ["72CD470A84E470B9"]
+			id: "7D88149DAA0394A7"
+			tasks: [{
+				id: "42E24309EB0A3318"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+			rewards: [{
+				id: "41EA92CACDADEEEF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: ["在高爐中製成。"]
+			dependencies: ["2D1318EDA00ECA97"]
+			id: "7FB4F23DE7D495D4"
+			tasks: [{
+				id: "3624E0042A3E3C7D"
+				type: "item"
+				item: "mekanism:nugget_tin"
+			}]
+			rewards: [{
+				id: "51F8AEC1B2D029C8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			description: ["粒可轉換成錠。"]
+			dependencies: ["7FB4F23DE7D495D4"]
+			id: "226D671DB96AC186"
+			tasks: [{
+				id: "5C27180B34EB8AB2"
+				type: "item"
+				item: "mekanism:ingot_tin"
+			}]
+			rewards: [{
+				id: "66E551DB2EA29F6D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "功能性儲存"
+			x: 1.0d
+			y: -1.0d
+			description: ["和抽屜的功能類似，但有額外的功能。"]
+			dependencies: ["18D2109E7163C21A"]
+			id: "3F5A44AA3C538DD8"
+			tasks: [{
+				id: "6E5E923F5A1F167F"
+				type: "item"
+				title: "Any #functionalstorage:drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "257AB3B98499C083"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["製作你專屬的抽屜！"]
+			dependencies: [
+				"5F11758BA30A14AB"
+				"3F5A44AA3C538DD8"
+			]
+			id: "7B394DB84AE6D7F8"
+			tasks: [{
+				id: "082104DFD740E7C9"
+				type: "item"
+				item: "functionalstorage:framed_1"
+			}]
+			rewards: [{
+				id: "74D1ED1E65288A75"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["讓你能將抽屜上鎖，顯示或隱藏儲物數量，顯示或隱藏升級，顯示或隱藏物品。是個多功能工具。"]
+			dependencies: ["7B394DB84AE6D7F8"]
+			id: "757C52118F4EB345"
+			tasks: [{
+				id: "7158C713AAB70CBF"
+				type: "item"
+				item: {
+					id: "functionalstorage:configuration_tool"
+					Count: 1b
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2869EA9B5D892F69"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["抽屜網路的心臟。"]
+			dependencies: [
+				"483C972E91A1443E"
+				"757C52118F4EB345"
+			]
+			id: "1A6DB1597EA06C66"
+			tasks: [{
+				id: "78F6023E78EE6452"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+			rewards: [{
+				id: "7BB12816332F39D0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["若一個物品有能製作和反製作的配方，這個抽屜會提供這兩者的輸出。同樣也能鑲框。"]
+			dependencies: ["757C52118F4EB345"]
+			id: "5D195A56570084F1"
+			tasks: [{
+				id: "10368B6FE6B2EBB0"
+				type: "item"
+				item: "functionalstorage:compacting_drawer"
+			}]
+			rewards: [{
+				id: "50A75765EBFF42B6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["基礎的物品傳輸。"]
+			dependencies: ["3F16A69720BFB822"]
+			id: "708A2AD2F88BA62C"
+			tasks: [{
+				id: "2FB5232218DB6009"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+			rewards: [{
+				id: "7AAC47C40B4FEFDE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["可用來將控制器連接到抽屜。"]
+			dependencies: ["757C52118F4EB345"]
+			id: "0ED5B951309553B2"
+			tasks: [{
+				id: "5FDCF9DF87E1CB38"
+				type: "item"
+				item: {
+					id: "functionalstorage:linking_tool"
+					Count: 1b
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+			}]
+			rewards: [{
+				id: "35819E714E6C1E96"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

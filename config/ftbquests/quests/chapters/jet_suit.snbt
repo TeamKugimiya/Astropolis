@@ -1,0 +1,154 @@
+{
+	id: "4103C61C580D2B3A"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 3
+	filename: "jet_suit"
+	title: "噴氣套裝"
+	icon: {
+		id: "jetboots:rocket_boots"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["在電弧爐中，用金和黑曜石製成的合金。"]
+			dependencies: ["403D4D40C75F5CA9"]
+			id: "6F5D0F26C6FE10A9"
+			tasks: [{
+				id: "17821EA1C68F0D92"
+				type: "item"
+				item: "jetboots:obsidian_infused_gold"
+			}]
+			rewards: [{
+				id: "66923E4E26B27FCB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["用來製作更酷的裝備。"]
+			dependencies: ["6F5D0F26C6FE10A9"]
+			id: "73482ACB4D6889D1"
+			tasks: [{
+				id: "15A09D2D87BD24A6"
+				type: "item"
+				item: "jetboots:armor_core"
+			}]
+			rewards: [{
+				id: "48E55911E8D56D57"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["可替代太空服的護腿。提供基礎的飛行能力。"]
+			dependencies: ["73482ACB4D6889D1"]
+			id: "3BCAA4B893911B1D"
+			tasks: [{
+				id: "6447C48B613663A0"
+				type: "item"
+				item: {
+					id: "jetboots:rocket_boots"
+					Count: 1b
+					tag: {
+						bml-item-xp: 65
+						jetboots-enchantable-container: {
+							Size: 3
+							Items: [{
+								Slot: 2
+								id: "minecraft:enchanted_book"
+								Count: 1b
+								tag: {
+									StoredEnchantments: [{
+										lvl: 3s
+										id: "minecraft:depth_strider"
+									}]
+								}
+							}]
+						}
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:depth_strider"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C9B5C5B54DA61C6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: ["可替代太空服的頭盔。"]
+			dependencies: ["73482ACB4D6889D1"]
+			id: "4726BA30E727B434"
+			tasks: [{
+				id: "2D1821996B570A7D"
+				type: "item"
+				item: {
+					id: "jetboots:guardian_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "18FE8921F2CDF6B4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["可替代太空服的護腿。"]
+			dependencies: ["73482ACB4D6889D1"]
+			id: "59906F3841BDCEE0"
+			tasks: [{
+				id: "22D6FA971B27BBCF"
+				type: "item"
+				item: {
+					id: "jetboots:guardian_pants"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "63119E1E612D9952"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			description: ["可替代太空服的胸甲。"]
+			dependencies: ["73482ACB4D6889D1"]
+			id: "32E8F230A4C99008"
+			tasks: [{
+				id: "654861D87377804A"
+				type: "item"
+				item: {
+					id: "jetboots:guardian_jacket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "402D07330E8471C3"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

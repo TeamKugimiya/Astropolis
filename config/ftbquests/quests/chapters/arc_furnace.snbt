@@ -1,0 +1,645 @@
+{
+	id: "26EEFEFB5E7AEBC6"
+	group: "340DA8E9F6F96A5B"
+	order_index: 2
+	filename: "arc_furnace"
+	title: "電弧爐"
+	icon: "immersiveengineering:arc_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "電弧爐"
+			icon: "immersiveengineering:arc_furnace"
+			x: 1.0d
+			y: 1.5d
+			description: ["一個大型機器用來礦物倍化或製作新的物品。"]
+			dependencies: [
+				"37214CC6928AA520"
+				"60DF413CFB17F1B1"
+			]
+			id: "2BF43ABD698251A2"
+			tasks: [
+				{
+					id: "5731DA6478831E8D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "6339CA8AB27FD3BC"
+					type: "item"
+					item: "mekanism:block_steel"
+					count: 6L
+				}
+				{
+					id: "26E0B98E732571AE"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "1ACF5DE6B756164B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "44264F645EC0A10B"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "4925D57E489E08B6"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "1E306BBFC370EC21"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1E29E16FA6EDF979"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "02195AE059A31A76"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [{
+				id: "5B99663920E725CB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["用來製作加速版的高爐。將強化高爐磚放置成 3x3x3，並在中間上方放置漏斗。"]
+			dependencies: ["42D9166BC33764C5"]
+			id: "37214CC6928AA520"
+			tasks: [{
+				id: "74D04F0B96BDB521"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+			rewards: [{
+				id: "605979C7768B8770"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["用來加快高爐的運作速度。"]
+			dependencies: [
+				"40EA6F43D8E247CD"
+				"37214CC6928AA520"
+			]
+			id: "6223A5EEA14D4A6E"
+			tasks: [{
+				id: "296E753F97AD4D45"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [{
+				id: "7F15BA26E410357D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["能提供熔爐熱源，使用 RF 取代燃料。"]
+			dependencies: ["67BD4CC4A2AF566F"]
+			id: "40EA6F43D8E247CD"
+			tasks: [{
+				id: "687316C2D4A6E140"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+			rewards: [{
+				id: "6E7AFDEB35B7812B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["用來傳輸電力，是管道的替代品。"]
+			dependencies: ["011FA047F92AA57A"]
+			id: "67BD4CC4A2AF566F"
+			tasks: [{
+				id: "4E1A7EBCF9CCBD30"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [{
+				id: "547FFDF7B9BFE5C5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["接在發電機或需要電的方塊上。"]
+			dependencies: ["67BD4CC4A2AF566F"]
+			id: "60D030DE0A9E0F57"
+			tasks: [{
+				id: "4D8918EC9D7E39F1"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			rewards: [{
+				id: "6CECF8D7A6B4516E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: ["可連接多個線纜，讓你建立一個電力網路。"]
+			dependencies: ["67BD4CC4A2AF566F"]
+			id: "36538C266091B2DB"
+			tasks: [{
+				id: "6784A4CF059D383C"
+				type: "item"
+				item: "immersiveengineering:connector_lv_relay"
+			}]
+			rewards: [{
+				id: "7B32C6739511F71B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["電弧爐需要這個才能運作。"]
+			dependencies: [
+				"76DE13EA5290F4D3"
+				"5B297BE0690EB236"
+			]
+			dependency_requirement: "one_completed"
+			id: "60DF413CFB17F1B1"
+			tasks: [{
+				id: "4C5E6144188289C9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76D073EFFA1A2A39"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "粉碎機"
+			icon: "immersiveengineering:crusher"
+			x: 1.0d
+			y: -4.5d
+			description: ["用來粉碎物品和方塊。也能將晶簇轉換成碎片。"]
+			dependencies: ["4ADABD46D108AC54"]
+			id: "238D12A140296CAB"
+			tasks: [
+				{
+					id: "200BD6071EA50525"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "665EF8C1EB068CE6"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "122274CA6845AD08"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "19903027B0767D4A"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "65A7E785344072A4"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "1FC295BA2983CAC8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["熔煉 HOP 石墨錠粉製成。"]
+			dependencies: ["25DE6A741B175512"]
+			id: "76DE13EA5290F4D3"
+			tasks: [{
+				id: "5B4B1B30C32E7DDA"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			rewards: [{
+				id: "1FD47C883D7DC938"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["在工業擠壓機中製成。"]
+			dependencies: ["28BE8210B7C57A05"]
+			id: "25DE6A741B175512"
+			tasks: [{
+				id: "1CD0C5604B22ABB7"
+				type: "item"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+			rewards: [{
+				id: "35106D9CBBAB093F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "工業擠壓機"
+			icon: "immersiveengineering:squeezer"
+			x: 1.0d
+			y: -2.5d
+			description: ["擠壓物品和方塊，能用來製作水。"]
+			dependencies: ["2327C2964578572A"]
+			id: "28BE8210B7C57A05"
+			tasks: [
+				{
+					id: "6F34063CA5190528"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "07B0CE54DAAA40C0"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "284717586FAF7F46"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "1FAF021E49173BE3"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "45BB10E6A26F4A29"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "04064B18E4272476"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "34940B1225B4C204"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "045E8B3D560931C6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["用粉碎機製成。"]
+			dependencies: ["238D12A140296CAB"]
+			id: "2327C2964578572A"
+			tasks: [{
+				id: "6FF05DB0BBDEABC4"
+				type: "item"
+				item: "immersiveengineering:dust_coke"
+			}]
+			rewards: [{
+				id: "1FCC92AF2659FBA7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			description: ["放置方塊。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "6ADCE22F5F412BF1"
+			tasks: [{
+				id: "25FF47D18EFC0EBA"
+				type: "item"
+				item: "engineersdecor:factory_placer"
+			}]
+			rewards: [{
+				id: "47BE04250A231CC1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["破壞方塊。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "722B164ED753A6F1"
+			tasks: [{
+				id: "1B7CC50933EED64A"
+				type: "item"
+				item: "engineersdecor:small_block_breaker"
+			}]
+			rewards: [{
+				id: "5E7DE70B2382645C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["用電弧爐製成。"]
+			dependencies: ["2BF43ABD698251A2"]
+			id: "3901269796CFD6A8"
+			tasks: [{
+				id: "3F949EAB921D679F"
+				type: "item"
+				item: "engineersdecor:old_industrial_wood_planks"
+			}]
+			rewards: [{
+				id: "4C34665D2DC7B51E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["更好的熔爐。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "15D2D672BADC99D7"
+			tasks: [{
+				id: "23C0343241257C78"
+				type: "item"
+				item: "engineersdecor:small_lab_furnace"
+			}]
+			rewards: [{
+				id: "6043C799EA1DBD86"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["更更好的熔爐。"]
+			dependencies: ["15D2D672BADC99D7"]
+			id: "7A3965D491B74D8C"
+			tasks: [{
+				id: "15C66844CD59EB7B"
+				type: "item"
+				item: {
+					id: "engineersdecor:small_electrical_furnace"
+					Count: 1b
+					tag: {
+						inventory: {
+							XpStored: 0.0f
+							CookTime: 0
+							SpeedSetting: 1
+							Energy: 0
+							BurnTime: 0
+							Items: [ ]
+							CookTimeTotal: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09B75EB6FB75C7D9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["投擲物品。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "7E4D576AAB7FAFFA"
+			tasks: [{
+				id: "09BFF5EAC9531BA7"
+				type: "item"
+				item: "engineersdecor:factory_dropper"
+			}]
+			rewards: [{
+				id: "0C1A3283FB31D9F9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["可以朝任何方向放置。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "329485D1609C39F0"
+			tasks: [{
+				id: "3AB68A130C2CAC25"
+				type: "item"
+				item: "engineersdecor:factory_hopper"
+			}]
+			rewards: [{
+				id: "47145F89C3A66C32"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["可用更便宜的配方製作石墨電極。"]
+			dependencies: ["25DE6A741B175512"]
+			id: "5B297BE0690EB236"
+			tasks: [{
+				id: "3CB544F374F1D1E5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B6FC8C30349E55B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["用來升級無限水源，在世界上對其右鍵使用升級。"]
+			dependencies: ["3901269796CFD6A8"]
+			id: "0A6DA0868AF0811F"
+			tasks: [{
+				id: "430D8593456DE294"
+				type: "item"
+				item: "watersources:iron_upgrade"
+			}]
+			rewards: [{
+				id: "4CCA727D60D2A0DB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["用老舊工業木材和鐵製成。取得紅石後就能使用 X Net。"]
+			dependencies: [
+				"30E2E07385680C87"
+				"3901269796CFD6A8"
+			]
+			id: "2791809CA3C82574"
+			tasks: [{
+				id: "5DE7080B590E6A98"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "5C1D0B8A03353292"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["小一點的機器框架。"]
+			dependencies: ["2791809CA3C82574"]
+			id: "7A086D0E51CD88AD"
+			tasks: [{
+				id: "2D49A15B1A041B70"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [{
+				id: "430ED17343B115EF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["讓紅石信號按照設定的時間間隔進行切換。"]
+			dependencies: ["7A086D0E51CD88AD"]
+			id: "70A5E636F9C8114B"
+			tasks: [{
+				id: "3E75482D5C6B1DA0"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+			rewards: [{
+				id: "0C9EEB1E5A02B174"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["自動製作設定好的配方。"]
+			dependencies: ["2791809CA3C82574"]
+			id: "1418CFDF81BBD90F"
+			tasks: [{
+				id: "1772944413FCA8EF"
+				type: "item"
+				item: "rftoolsutility:crafter1"
+			}]
+			rewards: [{
+				id: "367C2736535614CD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["自動製作設定好的配方。"]
+			dependencies: ["1418CFDF81BBD90F"]
+			id: "5963BD39224B5F97"
+			tasks: [{
+				id: "5D7FF28987D928D2"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+			rewards: [{
+				id: "47CFFF8588DB24A7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["自動製作設定好的配方。"]
+			dependencies: ["5963BD39224B5F97"]
+			id: "3D5CE4C46AC36B30"
+			tasks: [{
+				id: "41B2E1213D12C201"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "68A8DEB553ED2CCE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

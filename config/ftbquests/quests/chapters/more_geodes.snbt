@@ -1,0 +1,420 @@
+{
+	id: "454A29D23746E76F"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 1
+	filename: "more_geodes"
+	title: "更多晶簇"
+	icon: "geodeopolis:redstone_cluster"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["5867B1DE29972A67"]
+			id: "5E7B422D086352DA"
+			tasks: [{
+				id: "3B287DA165265D8A"
+				type: "item"
+				item: "geodeopolis:budding_redstone"
+			}]
+			rewards: [{
+				id: "175C4B398FDA6D9E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["135F626CAD382B29"]
+			id: "7AB0F2D78025CB00"
+			tasks: [{
+				id: "12E859ACDDD62F85"
+				type: "item"
+				item: "geodeopolis:budding_gold"
+			}]
+			rewards: [{
+				id: "506524E0DC7C484C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["6D684CB8627DF4B1"]
+			id: "510464D8F8054CFF"
+			tasks: [{
+				id: "3C0DFB58C532FE96"
+				type: "item"
+				item: "geodeopolis:budding_silver"
+			}]
+			rewards: [{
+				id: "0E26ED0FD010C35B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["2796B7F01281C644"]
+			id: "36905DB9DCDE0F44"
+			tasks: [{
+				id: "481FA94318283490"
+				type: "item"
+				item: "geodeopolis:gold_shard"
+			}]
+			rewards: [{
+				id: "4E7678A5518338F1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["33E26034A1BA4953"]
+			id: "255D18FD0A1A984D"
+			tasks: [{
+				id: "6A95886E7AF66802"
+				type: "item"
+				item: "geodeopolis:redstone_shard"
+			}]
+			rewards: [{
+				id: "2C9E83615DEDE9F2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["747CBC71D83DBBEC"]
+			id: "354B65C2FF107731"
+			tasks: [{
+				id: "7805019F772B1DB4"
+				type: "item"
+				item: "geodeopolis:silver_shard"
+			}]
+			rewards: [{
+				id: "359215292FD8DCB0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["7AB0F2D78025CB00"]
+			id: "2796B7F01281C644"
+			tasks: [{
+				id: "3569C5D7B4CAAABF"
+				type: "item"
+				item: "geodeopolis:gold_cluster"
+			}]
+			rewards: [{
+				id: "048EFD99431DC0F0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["5E7B422D086352DA"]
+			id: "33E26034A1BA4953"
+			tasks: [{
+				id: "4D96C081D28FFDC5"
+				type: "item"
+				item: "geodeopolis:redstone_cluster"
+			}]
+			rewards: [{
+				id: "2065B9625316B685"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["510464D8F8054CFF"]
+			id: "747CBC71D83DBBEC"
+			tasks: [{
+				id: "07B9EB7714197D28"
+				type: "item"
+				item: "geodeopolis:silver_cluster"
+			}]
+			rewards: [{
+				id: "65838445719035F7"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["42E8B1CACEE1E947"]
+			id: "360E05BEC74A9D68"
+			tasks: [{
+				id: "2FD3CF5AD083753C"
+				type: "item"
+				item: "geodeopolis:budding_quartz"
+			}]
+			rewards: [{
+				id: "76AA933F4A168F1D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["360E05BEC74A9D68"]
+			id: "664ACFE6443DB741"
+			tasks: [{
+				id: "2C568031BD48FD8C"
+				type: "item"
+				item: "geodeopolis:quartz_cluster"
+			}]
+			rewards: [{
+				id: "3339C58DAD536E94"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["664ACFE6443DB741"]
+			id: "363EE1B639427280"
+			tasks: [{
+				id: "0C166B489B9393DD"
+				type: "item"
+				item: "geodeopolis:quartz_shard"
+			}]
+			rewards: [{
+				id: "39AD0CF46FADF1AD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["0C649F2008EDC4BF"]
+			id: "1A88C441E0C3B9B3"
+			tasks: [{
+				id: "521D731695F12797"
+				type: "item"
+				item: "geodeopolis:budding_aluminum"
+			}]
+			rewards: [{
+				id: "5A3090D458FABD33"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["1A88C441E0C3B9B3"]
+			id: "25FA0D8C9339F4F1"
+			tasks: [{
+				id: "291CD311B13A615F"
+				type: "item"
+				item: "geodeopolis:aluminum_cluster"
+			}]
+			rewards: [{
+				id: "262E35DD8DF4AE31"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["25FA0D8C9339F4F1"]
+			id: "52B46F2E9C75AEE8"
+			tasks: [{
+				id: "6FB0B610C46187E8"
+				type: "item"
+				item: "geodeopolis:aluminum_shard"
+			}]
+			rewards: [{
+				id: "491DD2BAB6B6A177"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["2C60990616E3473F"]
+			id: "1D7274C22F36D6BB"
+			tasks: [{
+				id: "7D57F23EE6AAE793"
+				type: "item"
+				item: "geodeopolis:budding_lead"
+			}]
+			rewards: [{
+				id: "0FC6AA79006DACB2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["1D7274C22F36D6BB"]
+			id: "04C685A4369DDBB9"
+			tasks: [{
+				id: "5FA9594B1D3028FA"
+				type: "item"
+				item: "geodeopolis:lead_cluster"
+			}]
+			rewards: [{
+				id: "0152C2D510F0F5CD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["04C685A4369DDBB9"]
+			id: "61BB3DFACBA8D1EC"
+			tasks: [{
+				id: "0A127600468673DA"
+				type: "item"
+				item: "geodeopolis:lead_shard"
+			}]
+			rewards: [{
+				id: "15CFB8277905BB47"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "02C5FFB18AFCFBD2"
+			tasks: [{
+				id: "0D0B059BFF562FD1"
+				type: "item"
+				item: "geodeopolis:budding_lapis"
+			}]
+			rewards: [{
+				id: "0E9898FCBF7E2DF1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["02C5FFB18AFCFBD2"]
+			id: "53DFB5AA11D1D1A8"
+			tasks: [{
+				id: "268C1F4109E55B65"
+				type: "item"
+				item: "geodeopolis:lapis_cluster"
+			}]
+			rewards: [{
+				id: "0F4AFED0058B5EB1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["53DFB5AA11D1D1A8"]
+			id: "0142B96050B7B2B5"
+			tasks: [{
+				id: "0E09782E3B4AE065"
+				type: "item"
+				item: "geodeopolis:lapis_shard"
+			}]
+			rewards: [{
+				id: "30184885FBF274A9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["當放在世界上時會生長晶簇。或可在玻璃園藝溫室罩中用晶簇樣板種植。"]
+			dependencies: ["58853BDC75B6447F"]
+			id: "5A986B7A7424430F"
+			tasks: [{
+				id: "326F1232BBBFE122"
+				type: "item"
+				item: "geodeopolis:budding_nickel"
+			}]
+			rewards: [{
+				id: "63449642A177DF93"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["在玻璃園藝溫室罩中種植。"]
+			dependencies: ["5A986B7A7424430F"]
+			id: "2B8A86F4CD1BEF5E"
+			tasks: [{
+				id: "3D747A2276A974CA"
+				type: "item"
+				item: "geodeopolis:nickel_cluster"
+			}]
+			rewards: [{
+				id: "08B2BB062ED5952D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			description: ["破壞晶簇時掉落，碎片可合成錠或寶石的型態。"]
+			dependencies: ["2B8A86F4CD1BEF5E"]
+			id: "23D5CC7C44333837"
+			tasks: [{
+				id: "36B4659FE62213AC"
+				type: "item"
+				item: "geodeopolis:nickel_shard"
+			}]
+			rewards: [{
+				id: "783828004668EB04"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

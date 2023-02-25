@@ -1,0 +1,290 @@
+{
+	id: "0929CEA16291A57D"
+	group: "2B6989CB689DF96C"
+	order_index: 0
+	filename: "off_to_venus"
+	title: "前往金星"
+	icon: "cosmopolis:venus_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["在金星取得的礦物。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "49EA2CEBCFA0C4CC"
+			tasks: [{
+				id: "3210EA2FC80D548F"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "3614D447B07957C1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["在金星取得的礦物。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "6353B5C426E15F76"
+			tasks: [{
+				id: "7D02D3E756AE47F4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "3796CE11FF0918EB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "鈾原礦"
+			x: 3.5d
+			y: -1.0d
+			description: ["在金星取得的礦物。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "5020E51A5D63574D"
+			tasks: [{
+				id: "66E97FFB4B6B432F"
+				type: "item"
+				title: "Any #forge:raw_materials/uranium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:raw_materials/uranium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "68CE0C3CDC448A03"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["在金星取得的礦物。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "78C2DD2D549E5D03"
+			tasks: [{
+				id: "39476ADCB15F252D"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [{
+				id: "6F96AEF3A90CFC99"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "鋨原礦"
+			x: -0.5d
+			y: -1.0d
+			description: ["在金星取得的礦物。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "21992C1407B68914"
+			tasks: [{
+				id: "37FC776F51AB007F"
+				type: "item"
+				title: "Any #forge:raw_materials/osmium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:raw_materials/osmium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2754021367199E5C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["用來做通往金星的傳送門。需要 10 個。"]
+			dependencies: [
+				"53FA942360A667E2"
+				"3DE2E98CF4527697"
+				"740ACD281A4EC014"
+			]
+			id: "1A24557F574CF41B"
+			tasks: [{
+				id: "1EA76143AAC23D60"
+				type: "item"
+				item: "cosmopolis:venus_portal_frame"
+			}]
+			rewards: [{
+				id: "05AE718E459A1E85"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["金星的地底有熔岩湖。"]
+			dependencies: ["1A24557F574CF41B"]
+			id: "40BCC986E17690F8"
+			tasks: [{
+				id: "252B15D67680CF67"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "629B4ECD8772FE45"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["在紅沙和紅砂岩之下是黑石和礦物。"]
+			dependencies: ["1A24557F574CF41B"]
+			id: "51989EA0B3BAFA9F"
+			tasks: [{
+				id: "7B28B58E16877218"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+			rewards: [{
+				id: "02B610B49715C2CE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["21992C1407B68914"]
+			id: "75586F9338C29C9A"
+			tasks: [{
+				id: "13D925E6566A323B"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+			rewards: [{
+				id: "1BE4CED6F2E95C04"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["5020E51A5D63574D"]
+			id: "52DB1985F64F1D61"
+			tasks: [{
+				id: "34995A6C2177E507"
+				type: "item"
+				item: "mekanism:ingot_uranium"
+			}]
+			rewards: [{
+				id: "3586042E87ABE2DF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["用紅石碎片和沙製成。"]
+			dependencies: ["255D18FD0A1A984D"]
+			id: "740ACD281A4EC014"
+			tasks: [{
+				id: "170F65845B736710"
+				type: "item"
+				item: "minecraft:red_sandstone"
+			}]
+			rewards: [{
+				id: "1639FB7A976942F9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["在金星擊殺終界使者後取得。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "7BF6D4BF8BF51CC0"
+			tasks: [{
+				id: "4AA9AB76D2642CB0"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "083426543C525A44"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["在金星擊殺烈焰使者後取得。"]
+			dependencies: ["51989EA0B3BAFA9F"]
+			id: "3281BD7AD8D9500E"
+			tasks: [{
+				id: "5C316278975EB355"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "6FC85B0B802220FF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["神奇的眼睛。"]
+			dependencies: [
+				"741DB11027979EDD"
+				"7BF6D4BF8BF51CC0"
+			]
+			id: "53632EB6AE26B737"
+			tasks: [{
+				id: "77548CFA1421E1F5"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "382EFDB60A4DF8A9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["用烈焰桿製成。"]
+			dependencies: ["3281BD7AD8D9500E"]
+			id: "741DB11027979EDD"
+			tasks: [{
+				id: "3C6B9784C2F28A38"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+			rewards: [{
+				id: "725A82BC71D6D2C8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

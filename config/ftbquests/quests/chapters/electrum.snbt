@@ -1,0 +1,337 @@
+{
+	id: "07FC7960275B4E4F"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 2
+	filename: "electrum"
+	title: "琥珀金"
+	icon: "immersiveengineering:ingot_electrum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["一種金和銀的合金。"]
+			dependencies: ["7BAC3F3A02604F2E"]
+			id: "333D34CDA2A58C97"
+			tasks: [{
+				id: "29A088D9C6507275"
+				type: "item"
+				item: "immersiveengineering:ingot_electrum"
+			}]
+			rewards: [{
+				id: "75347CBF8BB34BAD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["破壞螢光石取得，也能以將螢光石放入機器中製作。"]
+			dependencies: ["7CD0005A29C2802B"]
+			id: "25F30CBFD631B6B8"
+			tasks: [{
+				id: "726853A3C07C0D43"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [{
+				id: "4D3F11DEE80E270B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["充能物品。"]
+			dependencies: ["333D34CDA2A58C97"]
+			id: "1B8E63BDCF2F4053"
+			tasks: [{
+				id: "5F5E493F2EE9D2AF"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "7FBB793D25CC7BA2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["在充能器中用紅石製成。你也可以製作螢光石芽床。"]
+			dependencies: ["1B8E63BDCF2F4053"]
+			id: "7CD0005A29C2802B"
+			tasks: [{
+				id: "6521028FFEAF1338"
+				type: "item"
+				item: "minecraft:glowstone"
+			}]
+			rewards: [{
+				id: "0FE7C0E41AEC40F4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["在電弧爐中將賽特斯石英粉熔煉而成。"]
+			dependencies: ["100D503DCC054DD1"]
+			id: "0336CDA7E4D72EE7"
+			tasks: [{
+				id: "0B3A487806290125"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "6C5F7D9B8EEAE9DC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["在充能器中用螢石粉製成。"]
+			dependencies: ["25F30CBFD631B6B8"]
+			id: "100D503DCC054DD1"
+			tasks: [{
+				id: "0332B32B91E7077D"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "77A616CB00359D3C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["在充能器中製成。"]
+			dependencies: ["0336CDA7E4D72EE7"]
+			id: "52C6382AB490C256"
+			tasks: [{
+				id: "34BDB8DB236EA1E4"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "0259274C5FDBF7A5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["在電弧爐中，用充能賽特斯石英水晶，紅石粉，螢石粉，賽特斯石英粉和琥珀金粉製作而成。"]
+			dependencies: [
+				"52C6382AB490C256"
+				"4561372CC05C1272"
+			]
+			id: "4A3DCDE48832DE98"
+			tasks: [{
+				id: "1B55569462BC9C7C"
+				type: "item"
+				item: "ae2:fluix_dust"
+			}]
+			rewards: [{
+				id: "278994201A951665"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["在電弧爐中製成。"]
+			dependencies: ["4A3DCDE48832DE98"]
+			id: "3B90BDE98975D8FB"
+			tasks: [{
+				id: "02EAA6ECE40F4A8B"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+			rewards: [{
+				id: "43688D3EE3C8C399"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["琥珀金粉。"]
+			dependencies: ["333D34CDA2A58C97"]
+			id: "4561372CC05C1272"
+			tasks: [{
+				id: "46E84BCD4AD655F2"
+				type: "item"
+				item: "immersiveengineering:dust_electrum"
+			}]
+			rewards: [{
+				id: "470A48564B9C45DC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["福魯伊克斯方塊。"]
+			dependencies: ["3B90BDE98975D8FB"]
+			id: "39D10F21126B8B67"
+			tasks: [{
+				id: "5DCD927097179E84"
+				type: "item"
+				item: "ae2:fluix_block"
+			}]
+			rewards: [{
+				id: "1236880292F18043"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["這會給你應用能源的所有模板。你只需要破壞一次。"]
+			dependencies: ["39D10F21126B8B67"]
+			id: "570A67F1C730EC62"
+			tasks: [{
+				id: "5A0F5645C3E16B64"
+				type: "item"
+				item: "ae2:mysterious_cube"
+			}]
+			rewards: [{
+				id: "1936207890245D73"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["用來製作處理器。"]
+			dependencies: ["39D10F21126B8B67"]
+			id: "0A2AF165B4D4BD1C"
+			tasks: [{
+				id: "5A67A57194FEEB97"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+			rewards: [{
+				id: "0C8F3E53DCDC3051"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["1B8E63BDCF2F4053"]
+			id: "01BE08FBAD2F994E"
+			tasks: [{
+				id: "0A36751241A69A20"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+			rewards: [{
+				id: "269577017B146977"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["在電弧爐中用福魯伊克斯方塊製成。"]
+			dependencies: ["39D10F21126B8B67"]
+			id: "403D4D40C75F5CA9"
+			tasks: [{
+				id: "5E98B4C0C5E8BC32"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "31F3B0434B1AAC28"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["將賽特斯石英方塊和充能賽特斯石英水晶丟入水中製成。在壓縮空間機器中能夠將水放到世界上。"]
+			dependencies: ["0336CDA7E4D72EE7"]
+			id: "5FF0A481ABC549F2"
+			tasks: [{
+				id: "7D04F1353CC762F8"
+				type: "item"
+				item: "ae2:damaged_budding_quartz"
+			}]
+			rewards: [{
+				id: "31B87C757A8B1AD1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["更好的水晶芽床。"]
+			dependencies: ["5FF0A481ABC549F2"]
+			id: "79A114E60E576DD6"
+			tasks: [{
+				id: "2A2C6DC978632ED4"
+				type: "item"
+				item: "ae2:chipped_budding_quartz"
+			}]
+			rewards: [{
+				id: "20FCA5FB164452F6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["更更好的水晶芽床。"]
+			dependencies: ["79A114E60E576DD6"]
+			id: "0EE6CDF39B41C17F"
+			tasks: [{
+				id: "47C6822A4A43A5C5"
+				type: "item"
+				item: "ae2:flawed_budding_quartz"
+			}]
+			rewards: [{
+				id: "7846E8DCB6040040"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["完美，現在可以在玻璃園藝溫室罩中使用。"]
+			dependencies: ["0EE6CDF39B41C17F"]
+			id: "653505375BAB5578"
+			tasks: [{
+				id: "651A14C3A4D86B53"
+				type: "item"
+				item: "ae2:flawless_budding_quartz"
+			}]
+			rewards: [{
+				id: "34084C4898276767"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

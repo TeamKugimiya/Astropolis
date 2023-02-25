@@ -1,0 +1,46 @@
+{
+	id: "2C779EA4B1A670C6"
+	group: "62DD82AAB9CD0D19"
+	order_index: 0
+	filename: "returning_to_the_overworld"
+	title: "返回主世界"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["甜蜜的家！"]
+			dependencies: ["75E1D87793EBFE36"]
+			id: "252A80D8A9E18138"
+			tasks: [{
+				id: "4C280A3B840DB10C"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "32B7015A10A962E5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["下次見！"]
+			dependencies: ["252A80D8A9E18138"]
+			id: "715CC487995F3C0D"
+			tasks: [{
+				id: "6FD8256CB6645BF4"
+				type: "checkmark"
+				title: "感謝遊玩"
+			}]
+			rewards: [{
+				id: "2B4EDFCD911515B2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

@@ -1,0 +1,355 @@
+{
+	id: "47AF08D684C849FD"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 0
+	filename: "portal"
+	title: "傳送門"
+	icon: "cosmopolis:space_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["用來製作傳送門框架。"]
+			dependencies: ["2BF43ABD698251A2"]
+			id: "5461965FD9C54599"
+			tasks: [{
+				id: "75A7850D212D0BFA"
+				type: "item"
+				item: "cosmopolis:space_suit_upgrade"
+			}]
+			rewards: [{
+				id: "52CF5C07C87BA77F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["用來點亮前往採礦行星帶的傳送門。"]
+			dependencies: ["74D7FD5D080ED2DB"]
+			id: "539DC3618AF6DD25"
+			tasks: [{
+				id: "4A2E32D93852B96D"
+				type: "item"
+				item: "cosmopolis:space_core"
+			}]
+			rewards: [{
+				id: "05BB696740A4A97E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["用來製作前往採礦行星帶的傳送門。需要 10 個。"]
+			dependencies: [
+				"5461965FD9C54599"
+				"6BD170BC1EE7EEA2"
+			]
+			id: "74D7FD5D080ED2DB"
+			tasks: [{
+				id: "7515AE2338C93060"
+				type: "item"
+				item: "cosmopolis:mining_belt_portal_frame"
+			}]
+			rewards: [{
+				id: "15D7E163F4738C79"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["用來將工具升級和製作傳送門框架。"]
+			dependencies: ["6B7E0F47B11A8B79"]
+			id: "6BD170BC1EE7EEA2"
+			tasks: [{
+				id: "217618BBFEDCE379"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [{
+				id: "2FABDDED70F89D26"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["結構羅盤用來尋找結構。在採礦行星帶中找尋礦物相當有用。"]
+			dependencies: ["74D7FD5D080ED2DB"]
+			id: "7CD5F67E9B4C12D3"
+			tasks: [{
+				id: "1D2868A5E7BB8128"
+				type: "item"
+				item: "structurecompass:structure_compass"
+			}]
+			rewards: [{
+				id: "63FB95ADD7D06E01"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "5867B1DE29972A67"
+			tasks: [{
+				id: "561E100E576DF6D8"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "0FCD56E405DC7F65"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "3ABCB371198260B9"
+			tasks: [{
+				id: "7BAC3F3A02604F2E"
+				type: "item"
+				item: "minecraft:raw_gold"
+			}]
+			rewards: [{
+				id: "42BD2E6C00D0D983"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "3C5E7C57022F597B"
+			tasks: [{
+				id: "5BAC9A2830022EDF"
+				type: "item"
+				item: "immersiveengineering:raw_silver"
+			}]
+			rewards: [{
+				id: "3E294F10400CAA8D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["3ABCB371198260B9"]
+			id: "135F626CAD382B29"
+			tasks: [{
+				id: "503F80F619816291"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "48C0CD72611DC3E5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["3C5E7C57022F597B"]
+			id: "6D684CB8627DF4B1"
+			tasks: [{
+				id: "393C89E012EB93A7"
+				type: "item"
+				item: "immersiveengineering:ingot_silver"
+			}]
+			rewards: [{
+				id: "695D68BC8B447F5E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "42E8B1CACEE1E947"
+			tasks: [{
+				id: "51B346465FFCB2D6"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+			rewards: [{
+				id: "5C654ECEB2A6D68B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "150D9B47A8DDFE83"
+			tasks: [{
+				id: "02915F6D55A2F71E"
+				type: "item"
+				item: "immersiveengineering:raw_aluminum"
+			}]
+			rewards: [{
+				id: "15ED4A6C9EC9D728"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "785FCADC6249AAB6"
+			tasks: [{
+				id: "15CE0B382C254DF1"
+				type: "item"
+				item: "mekanism:raw_lead"
+			}]
+			rewards: [{
+				id: "02BF2C93071106EC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["150D9B47A8DDFE83"]
+			id: "0C649F2008EDC4BF"
+			tasks: [{
+				id: "34F275B2CDE86289"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+			rewards: [{
+				id: "0DFDF996D98F3A37"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["785FCADC6249AAB6"]
+			id: "2C60990616E3473F"
+			tasks: [{
+				id: "67F12FDA1678AA8B"
+				type: "item"
+				item: "mekanism:ingot_lead"
+			}]
+			rewards: [{
+				id: "2E3E700C834D7255"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "2F41EE36009A64DB"
+			tasks: [{
+				id: "40CFABC83A1EBF46"
+				type: "item"
+				item: "caveopolis:raw_mixed_stone"
+			}]
+			rewards: [{
+				id: "68CFF27E88E67151"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["原礦熔煉而成。用來製作噴漆罐，能將石頭上色。"]
+			dependencies: ["2F41EE36009A64DB"]
+			id: "799608003E9BBC29"
+			tasks: [{
+				id: "4325CC96607D802D"
+				type: "item"
+				item: "caveopolis:mixed_stone_ingot"
+			}]
+			rewards: [{
+				id: "138984867914D7DE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "15D50387156723C5"
+			tasks: [{
+				id: "3C8229BA7A0792D2"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "71396AC479F3AE3A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["在採礦行星帶中取得的礦物。"]
+			dependencies: ["539DC3618AF6DD25"]
+			id: "5F836195AB337742"
+			tasks: [{
+				id: "7F89A7679BDC272F"
+				type: "item"
+				item: "immersiveengineering:raw_nickel"
+			}]
+			rewards: [{
+				id: "1A4F12F565242A78"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["原礦熔煉而成。"]
+			dependencies: ["5F836195AB337742"]
+			id: "58853BDC75B6447F"
+			tasks: [{
+				id: "0AB99349DED59EEE"
+				type: "item"
+				item: "immersiveengineering:ingot_nickel"
+			}]
+			rewards: [{
+				id: "5EA6016573DC9DE9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

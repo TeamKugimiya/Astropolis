@@ -1,0 +1,73 @@
+{
+	id: "436EA6201C755E8D"
+	group: "64D925DE5BD6613C"
+	order_index: 0
+	filename: "off_to_mars"
+	title: "前往火星"
+	icon: "cosmopolis:mars_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "\"對這個物品按 U 鍵查看配方\""
+			description: ["用來製作通往火星的傳送門。需要 10 個。"]
+			dependencies: ["03885DA50223B13B"]
+			id: "16EC4B2B089383FC"
+			tasks: [{
+				id: "46E693977C27674A"
+				type: "item"
+				item: "cosmopolis:mars_portal_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["在火星上高度 0 以下，破壞紅砂岩掉落，同時也會掉落其它的寶石。"]
+			dependencies: ["16EC4B2B089383FC"]
+			id: "5A08DC478E9F5F4D"
+			tasks: [{
+				id: "3C5387D0F48F31FB"
+				type: "item"
+				item: "astropolis:ruby"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["在火星上高度 0 以下，破壞紅砂岩掉落，同時也會掉落其它的寶石。"]
+			dependencies: ["16EC4B2B089383FC"]
+			id: "5CF762CB9431FA5D"
+			tasks: [{
+				id: "01ED00C65E245A19"
+				type: "item"
+				item: "astropolis:sapphire"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: ["無盡的礦物。"]
+			dependencies: ["5A08DC478E9F5F4D"]
+			id: "5BD73468D54F6BE2"
+			tasks: [{
+				id: "52B9D2CF604B66CC"
+				type: "item"
+				item: "neverenderore:never_ender_ruby_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["無盡的礦物。"]
+			dependencies: ["5CF762CB9431FA5D"]
+			id: "049C17730C4B6446"
+			tasks: [{
+				id: "7794F54188BBAD36"
+				type: "item"
+				item: "neverenderore:never_ender_sapphire_ore"
+			}]
+		}
+	]
+}

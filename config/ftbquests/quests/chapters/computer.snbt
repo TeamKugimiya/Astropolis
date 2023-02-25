@@ -1,0 +1,210 @@
+{
+	id: "30D95F69CEA000EB"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 4
+	filename: "computer"
+	title: "處理器"
+	icon: "ae2:calculation_processor_press"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["570A67F1C730EC62"]
+			id: "7432CF47858A1D7E"
+			tasks: [{
+				id: "771D21C8890D4160"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+			rewards: [{
+				id: "557EE38F457C23F4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["570A67F1C730EC62"]
+			id: "537EC38415653044"
+			tasks: [{
+				id: "206737E6BD800105"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+			rewards: [{
+				id: "792B5CD89DE5615C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["570A67F1C730EC62"]
+			id: "6B5D09EA68F44435"
+			tasks: [{
+				id: "69538C5992352E0C"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+			rewards: [{
+				id: "536D71B020038DAE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["570A67F1C730EC62"]
+			id: "24C520F4DC080183"
+			tasks: [{
+				id: "195FABE9C4E96B36"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+			rewards: [{
+				id: "78F10EACF444D4EE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: [
+				"0A2AF165B4D4BD1C"
+				"7432CF47858A1D7E"
+			]
+			id: "2ED6B3EB30E5409F"
+			tasks: [{
+				id: "421E98A5BF6ABE63"
+				type: "item"
+				item: "ae2:printed_engineering_processor"
+			}]
+			rewards: [{
+				id: "6E784E2DEE8EA84E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"0A2AF165B4D4BD1C"
+				"537EC38415653044"
+			]
+			id: "1ACF60ED5877250C"
+			tasks: [{
+				id: "0618B375A34EE7ED"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+			rewards: [{
+				id: "1A570B7BF768264F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: [
+				"0A2AF165B4D4BD1C"
+				"6B5D09EA68F44435"
+				"01BE08FBAD2F994E"
+			]
+			id: "6C6A28BC76DAE009"
+			tasks: [{
+				id: "6A3C234DE7455EB0"
+				type: "item"
+				item: "ae2:printed_silicon"
+			}]
+			rewards: [{
+				id: "352267DC06466E1E"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: [
+				"0A2AF165B4D4BD1C"
+				"24C520F4DC080183"
+			]
+			id: "4C06AA86BBC674B4"
+			tasks: [{
+				id: "55D846F9328BB4BE"
+				type: "item"
+				item: "ae2:printed_calculation_processor"
+			}]
+			rewards: [{
+				id: "5E6394971FC67045"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: [
+				"4C06AA86BBC674B4"
+				"6C6A28BC76DAE009"
+			]
+			id: "13F989DDF558D092"
+			tasks: [{
+				id: "4417E74671C2D7C3"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+			rewards: [{
+				id: "3B984D0C67D24FC6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: [
+				"1ACF60ED5877250C"
+				"6C6A28BC76DAE009"
+			]
+			id: "05A31247E8DBC208"
+			tasks: [{
+				id: "03D8EEC2B592677A"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+			rewards: [{
+				id: "571E76BE594EAA83"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: [
+				"2ED6B3EB30E5409F"
+				"6C6A28BC76DAE009"
+			]
+			id: "3AE8790B8C4F667D"
+			tasks: [{
+				id: "33E159CB60867F63"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+			rewards: [{
+				id: "72792A96DFDF43E8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	id: "3D75E18DF24CCAAC"
+	group: "64D925DE5BD6613C"
+	order_index: 1
+	filename: "gem_of_gems"
+	title: "主世界核心"
+	icon: "astropolis:overworld_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["寶石中的寶石。"]
+			dependencies: [
+				"5A08DC478E9F5F4D"
+				"5CF762CB9431FA5D"
+			]
+			id: "22B10D61EEBA3C36"
+			tasks: [{
+				id: "6268BFC3D1EF5578"
+				type: "item"
+				item: "astropolis:gem_of_gems"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["更更大的合成台。"]
+			dependencies: ["22B10D61EEBA3C36"]
+			id: "2D7A1E440AE90C7C"
+			tasks: [{
+				id: "0D3437148F527CBC"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["最大且最棒的合成台。"]
+			dependencies: [
+				"03885DA50223B13B"
+				"1C49C726513AB39C"
+				"5C3C99FC2878B59F"
+				"3E3F78D49084791E"
+				"65CF617E4617BFEF"
+				"4B59C6F5BA49DBB4"
+				"16AB8DF7FDABE74E"
+				"18C2AEE3624B8194"
+				"5040B03AAF830C45"
+				"025DCA71D66DE7E9"
+			]
+			id: "566C8F45C688FB11"
+			tasks: [{
+				id: "1562FEA4974E6BFD"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["碎片中的碎片。"]
+			dependencies: ["2D7A1E440AE90C7C"]
+			id: "025DCA71D66DE7E9"
+			tasks: [{
+				id: "0881D40F2563C377"
+				type: "item"
+				item: "astropolis:shard_of_shards"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			description: ["準備好回去甜蜜的家了嗎？"]
+			dependencies: [
+				"75E1D87793EBFE36"
+				"566C8F45C688FB11"
+			]
+			id: "48902F1A702EC7CF"
+			tasks: [{
+				id: "1753A7480046B207"
+				type: "item"
+				item: "cosmopolis:space_portal_frame"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: ["主世界核心是用來製作太空傳送門框架。"]
+			dependencies: ["025DCA71D66DE7E9"]
+			id: "75E1D87793EBFE36"
+			tasks: [{
+				id: "583FC6839E8BE44F"
+				type: "item"
+				item: "astropolis:overworld_core"
+			}]
+		}
+	]
+}

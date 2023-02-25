@@ -1,0 +1,590 @@
+{
+	id: "4424A2C2D793E7B2"
+	group: "5ABCAD26A5B5A9FC"
+	order_index: 5
+	filename: "better_storage"
+	title: "更好的儲物系統"
+	icon: "ae2:crafting_terminal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["讓你的網路能有更多的頻道。每個面都能提供頻道。可以是個多方塊結構來提供更多的頻道！"]
+			dependencies: [
+				"1FBF3F6FCBBB13EE"
+				"3AE8790B8C4F667D"
+			]
+			id: "0944EDEF94E8013A"
+			tasks: [{
+				id: "79C2D15FE1061E76"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "700283DEBB3625B0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["一個存放儲存單元的地方。"]
+			dependencies: ["3E26A33DE6584306"]
+			id: "1280AF7530D13722"
+			tasks: [{
+				id: "57717DAB54F8026B"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "5B0F42F12084E6F6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: ["用來製作配方樣板。"]
+			dependencies: ["4AB0098FC183DAE4"]
+			id: "1E590A2D67AEA45E"
+			tasks: [{
+				id: "55D52487F841D2E7"
+				type: "item"
+				item: "ae2:pattern_encoding_terminal"
+			}]
+			rewards: [{
+				id: "45C782140EA890DA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			description: ["能查看網路中存放的物品，並能直接合成。"]
+			dependencies: ["03592FEBEF2EC67A"]
+			id: "4AB0098FC183DAE4"
+			tasks: [{
+				id: "336E2E8B8F7EDB65"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "07BD4624D182191D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["查看已儲存的樣板。"]
+			dependencies: ["440A25B4D8C85C27"]
+			id: "4A99891CEE3A7424"
+			tasks: [{
+				id: "03224BD6B23CE5B2"
+				type: "item"
+				item: "ae2:pattern_access_terminal"
+			}]
+			rewards: [{
+				id: "50459965DB963995"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["AE2 的基礎連接線纜。"]
+			dependencies: ["4E5BC280C8BA323B"]
+			id: "3E26A33DE6584306"
+			tasks: [{
+				id: "412A1F44442DBF7E"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+			rewards: [{
+				id: "37A303656B650310"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "智慧線纜"
+			x: 1.0d
+			y: -2.0d
+			description: ["能顯示已使用的頻道數。"]
+			dependencies: ["0FFFC4ADB741631A"]
+			id: "3FCE03E99353A65A"
+			tasks: [{
+				id: "0CD7D52B90F49DF2"
+				type: "item"
+				title: "Any #ae2:smart_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "40CE19213411A684"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "緻密智慧線纜"
+			x: 2.0d
+			y: -2.0d
+			description: ["能顯示已使用的頻道數。"]
+			dependencies: ["57695171DAD234F0"]
+			id: "2A32C5E8F318003B"
+			tasks: [{
+				id: "183C6C2697A3D821"
+				type: "item"
+				title: "Any #ae2:smart_dense_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EABA414C73CA790"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["7B95CAB931D01137"]
+			id: "4E5BC280C8BA323B"
+			tasks: [{
+				id: "4191812EE6C76585"
+				type: "item"
+				item: "ae2:quartz_fiber"
+			}]
+			rewards: [{
+				id: "15D5DBA348FF8F9A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["01BE08FBAD2F994E"]
+			id: "7B95CAB931D01137"
+			tasks: [{
+				id: "27C7ABE1705F0AB8"
+				type: "item"
+				item: "ae2:quartz_glass"
+			}]
+			rewards: [{
+				id: "677C386444FD2D3A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "包覆線纜"
+			x: 1.0d
+			y: -3.0d
+			description: ["讓更多的頻道通過這個線纜。"]
+			dependencies: ["3E26A33DE6584306"]
+			id: "0FFFC4ADB741631A"
+			tasks: [{
+				id: "37F6C144DE049DFB"
+				type: "item"
+				title: "Any #ae2:covered_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:covered_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06564AAA4A624EC9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "緻密包覆線纜"
+			x: 2.0d
+			y: -3.0d
+			description: ["讓最多的頻道通過這個線纜。"]
+			dependencies: ["0FFFC4ADB741631A"]
+			id: "57695171DAD234F0"
+			tasks: [{
+				id: "472CEE23C5C0B2A6"
+				type: "item"
+				title: "Any #ae2:covered_dense_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:covered_dense_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5749382115B6B5EB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["熔煉隕石。"]
+			dependencies: ["0140353AC33B39D6"]
+			id: "1FBF3F6FCBBB13EE"
+			tasks: [{
+				id: "05A4F3B077A91F4F"
+				type: "item"
+				item: "ae2:smooth_sky_stone_block"
+			}]
+			rewards: [{
+				id: "648666ED1950D29B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["用壓印機製成。"]
+			dependencies: ["03172087D4A49183"]
+			id: "0140353AC33B39D6"
+			tasks: [{
+				id: "629AE209E5531525"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+			rewards: [{
+				id: "35C9EA51A39A940F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["用壓印機製成。"]
+			dependencies: ["0A2AF165B4D4BD1C"]
+			id: "03172087D4A49183"
+			tasks: [{
+				id: "41BEED02A7FAA650"
+				type: "item"
+				item: "ae2:sky_dust"
+			}]
+			rewards: [{
+				id: "651ADA1CCF9B4ACD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: ["能放在福魯伊克斯線纜上，提供光源，主要用來製作其他的終端機。"]
+			dependencies: ["7B95CAB931D01137"]
+			id: "3598E508D324D1F0"
+			tasks: [{
+				id: "418BB1B6C125D01B"
+				type: "item"
+				item: "ae2:semi_dark_monitor"
+			}]
+			rewards: [{
+				id: "6B41F96E7FD515E4"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["建造。"]
+			dependencies: ["05A31247E8DBC208"]
+			id: "3DE2E98CF4527697"
+			tasks: [{
+				id: "18B30621C2CC674B"
+				type: "item"
+				item: "ae2:formation_core"
+			}]
+			rewards: [{
+				id: "77A0798316C466CF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["破壞。"]
+			dependencies: ["05A31247E8DBC208"]
+			id: "53FA942360A667E2"
+			tasks: [{
+				id: "240E3B505DD83BCD"
+				type: "item"
+				item: "ae2:annihilation_core"
+			}]
+			rewards: [{
+				id: "18986439C024FD16"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["能查看網路中存放的物品。"]
+			dependencies: [
+				"3598E508D324D1F0"
+				"3DE2E98CF4527697"
+				"53FA942360A667E2"
+			]
+			id: "03592FEBEF2EC67A"
+			tasks: [{
+				id: "0A115C88D76DEA3B"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+			rewards: [{
+				id: "216B7613A2C0016F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["當旁邊的樣板供應器中放入編碼好的樣板後，就能呼叫自動合成該配方。"]
+			dependencies: ["440A25B4D8C85C27"]
+			id: "477334EC959446DC"
+			tasks: [{
+				id: "71FAA16F37F516F2"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "57C81C3C8CE09283"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "樣板供應器"
+			x: -3.0d
+			y: 0.0d
+			description: ["放在分子組裝機旁加入自動合成的配方。同樣的也能放在機器旁。"]
+			dependencies: [
+				"3DE2E98CF4527697"
+				"3598E508D324D1F0"
+				"53FA942360A667E2"
+			]
+			id: "440A25B4D8C85C27"
+			tasks: [{
+				id: "0D3A04554BF77962"
+				type: "item"
+				title: "Any #ae2:pattern_provider"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:pattern_provider"
+					}
+				}
+			}]
+			rewards: [{
+				id: "75FDDE5D7F565BF1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["合成儲存器的基底。"]
+			dependencies: [
+				"1E590A2D67AEA45E"
+				"477334EC959446DC"
+			]
+			id: "4C606212F5DDEA18"
+			tasks: [{
+				id: "25F72F0517127BC2"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+			rewards: [{
+				id: "4A76F7B9E3CFE88D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: ["能自動製作物品，越大的合成儲存器能製作更複雜的配方。放在網路中其中一個線纜旁。"]
+			dependencies: ["4C606212F5DDEA18"]
+			id: "49093E060EC17DD8"
+			tasks: [{
+				id: "3034C6C076360BCF"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "2D8AB912F16AB967"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["能讓多個合成儲存器同時製作同一個配方或單獨工作。"]
+			dependencies: ["4C606212F5DDEA18"]
+			id: "340AB11EA1013C24"
+			tasks: [{
+				id: "080484113008FDC8"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+			rewards: [{
+				id: "74246C9871CEA4FD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["儲存物品。"]
+			dependencies: ["1280AF7530D13722"]
+			id: "27F85A252112AC91"
+			tasks: [{
+				id: "3F58EBFD37E980C4"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6F82B34179D9D4A6"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["將物品輸入至網路中。"]
+			dependencies: ["53FA942360A667E2"]
+			id: "62AD9D3C47521B2A"
+			tasks: [{
+				id: "52782A28B3C94CE2"
+				type: "item"
+				item: "ae2:import_bus"
+			}]
+			rewards: [{
+				id: "5B7FF746047618DF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["從網路中輸出物品。"]
+			dependencies: ["3DE2E98CF4527697"]
+			id: "11F6E94654B70FC7"
+			tasks: [{
+				id: "45659A22762A5064"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+			rewards: [{
+				id: "0406FE5C5EF041F8"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["讓你的網路能夠查看非儲存在系統內的物品。連接上儲存控制器來查看抽屜中儲存的所有物品。"]
+			dependencies: ["6B516F4C48FEFF15"]
+			id: "5D6EE65215628C71"
+			tasks: [{
+				id: "33D9FCC0F144D693"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [{
+				id: "3352C1F9CC3CB7A9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "介面"
+			x: -5.0d
+			y: 0.0d
+			description: ["介面。"]
+			dependencies: [
+				"3DE2E98CF4527697"
+				"3598E508D324D1F0"
+				"53FA942360A667E2"
+			]
+			id: "6B516F4C48FEFF15"
+			tasks: [{
+				id: "2A35EF00BE853022"
+				type: "item"
+				title: "Any #ae2:interface"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D2971376F8050D1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["為你的網路供電。"]
+			dependencies: ["7B95CAB931D01137"]
+			id: "47536343A1AD2241"
+			tasks: [{
+				id: "062910D9F4BDE394"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "082C8F2A6353BEDE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

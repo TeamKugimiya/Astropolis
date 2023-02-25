@@ -1,0 +1,180 @@
+{
+	id: "7F0644EA804FF07B"
+	group: "0D2AD34C2CBF122F"
+	order_index: 0
+	filename: "basic_information"
+	title: "基礎資訊"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["歡迎來到星域歸鄉"]
+			id: "6EA489DA1E576A9B"
+			tasks: [{
+				id: "7B100AC2D743B4D7"
+				type: "checkmark"
+				title: "歡迎來到星域歸鄉"
+			}]
+			rewards: [{
+				id: "4ED6FF65790AA3FC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["若你從小行星上掉下去，將世界的上方重生，然後再掉回來。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "2B9F679940FBB887"
+			tasks: [{
+				id: "53BB6E7F7A84C3C5"
+				type: "checkmark"
+				title: "虛空豁免"
+			}]
+			rewards: [{
+				id: "175BF5ECBD3C0E86"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["隨著完成更多的任務，商店將會陸續解鎖。大多數任務都會獎勵 B 幣。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "70B8DD525D3256E8"
+			tasks: [{
+				id: "398123A54F9D0979"
+				type: "checkmark"
+				title: "商店"
+			}]
+			rewards: [
+				{
+					id: "2F50009827DC8C18"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+				{
+					id: "66EA7D93C6D196F9"
+					type: "item"
+					item: "opolisutilities:wallet"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["或許你已經注意到你可以跳得更高。太空維度中擁有較低的重力，讓你跳得更高。並且在太空中，不會有掉落傷害。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "378DE4BA6A0644CB"
+			tasks: [{
+				id: "352BA239415A6BE6"
+				type: "checkmark"
+				title: "重力"
+			}]
+			rewards: [{
+				id: "3F772324DABC13D2"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "Discord"
+			x: 0.0d
+			y: 2.5d
+			description: ["模組包官方DC：https://discord.gg/UpJknJ8   釘宮翻譯組DC：https://discord.gg/7BbPMtygHU"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "380B9EABE73A688B"
+			tasks: [{
+				id: "068E6D612BD63CA7"
+				type: "checkmark"
+				title: "加入DC取得提示、小技巧並可提供遊玩的建議。"
+			}]
+			rewards: [
+				{
+					id: "30DE6BE51F894B35"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+				{
+					id: "64B1B231BBDD5AED"
+					type: "command"
+					auto: "invisible"
+					command: "/discord"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["按 L 鍵建立你的空島"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "3CA95C968E83F38F"
+			tasks: [{
+				id: "62BB5B92AB444BEE"
+				type: "checkmark"
+				title: "按下 L"
+			}]
+			rewards: [{
+				id: "4BCAA9525069EFBB"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: ["使用指令 /ftbteams 創立隊伍來同步你們的任務。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "5CCB31C9E22EADB9"
+			tasks: [{
+				id: "556BF3E4F8C22A0B"
+				type: "checkmark"
+				title: "FTB 任務"
+			}]
+			rewards: [{
+				id: "184994DE3D5DCF0D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "FTB 連鎖挖礦"
+			x: -1.5d
+			y: 2.0d
+			description: ["FTB 連鎖挖礦最多可以一次破壞相同的 64 個方塊。按住波浪號並破壞方塊。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "3374D46D6DEFA9E2"
+			tasks: [{
+				id: "12E82CA0098EAA7F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "513546105BB1AE89"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "死亡"
+			x: 1.5d
+			y: 2.0d
+			description: ["若你死了，可以在任務的應急物品那取得新的太空服。"]
+			dependencies: ["6EA489DA1E576A9B"]
+			id: "363BFE5C5F065E12"
+			tasks: [{
+				id: "622580488F3DF31D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0873437467A13A3D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

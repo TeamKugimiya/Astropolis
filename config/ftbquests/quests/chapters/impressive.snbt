@@ -1,0 +1,578 @@
+{
+	id: "317B3F7796B63185"
+	group: "340DA8E9F6F96A5B"
+	order_index: 1
+	filename: "impressive"
+	title: "這會讓你印象深刻"
+	icon: "immersiveengineering:plate_steel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "金屬沖壓機"
+			icon: "immersiveengineering:metal_press"
+			x: -0.5d
+			y: -0.5d
+			description: ["查看工程師手冊製作金屬沖壓機。"]
+			dependencies: [
+				"28267DC21EE4B837"
+				"29010EDA0698FF13"
+				"6DFE93E573C412FF"
+			]
+			id: "42D9166BC33764C5"
+			tasks: [
+				{
+					id: "33AF2975696FB3E4"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "531B57D2D7394010"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "116B4250B2E249EB"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3EF77226A43F41C0"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "6F844B762C2DB5DE"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1ADA10CC6BC43421"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "78B6465B39E8C6AF"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["讓金屬沖壓機能製作板材。"]
+			dependencies: ["656BFB0D4E5B9256"]
+			id: "71D3BDBB09F446F9"
+			tasks: [{
+				id: "2B8990D5208B892A"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+			rewards: [{
+				id: "2E52B02684338F01"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			description: ["讓金屬沖壓機能製作金屬桿。"]
+			dependencies: [
+				"6E06EE61665B21F8"
+				"5AD2737939D42400"
+			]
+			id: "5588E7AC48FD8CA9"
+			tasks: [{
+				id: "4A1A360365793839"
+				type: "item"
+				item: "immersiveengineering:mold_rod"
+			}]
+			rewards: [{
+				id: "100B1C7AADEC94A1"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["用來剪東西。"]
+			dependencies: ["42D9166BC33764C5"]
+			id: "656BFB0D4E5B9256"
+			tasks: [{
+				id: "1FAB7C7D419B7CDD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EDE4542BEDF221B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["用金屬沖壓機製成。"]
+			dependencies: ["71D3BDBB09F446F9"]
+			id: "6E06EE61665B21F8"
+			tasks: [{
+				id: "3507CA91479E8E75"
+				type: "item"
+				item: "immersiveengineering:plate_steel"
+			}]
+			rewards: [{
+				id: "413DBEA7852C6EEE"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["用金屬沖壓機製成。"]
+			dependencies: ["71D3BDBB09F446F9"]
+			id: "4A0A2E5DAF6C28DC"
+			tasks: [{
+				id: "3C9FF1AECBA98BA5"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+			}]
+			rewards: [{
+				id: "5CC4BD0EC54B24DA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["用鐵板製成。"]
+			dependencies: ["4A0A2E5DAF6C28DC"]
+			id: "77026B03A595301F"
+			tasks: [{
+				id: "73274967570BAE86"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_iron"
+			}]
+			rewards: [{
+				id: "75FC2798BA4EA548"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["用來傳輸流體。"]
+			dependencies: ["4A0A2E5DAF6C28DC"]
+			id: "70F9A1EF855C13DA"
+			tasks: [{
+				id: "1DA6547973607B68"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+			rewards: [{
+				id: "0F2364E4333DA78D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			description: ["讓金屬沖壓機能製作線纜。"]
+			dependencies: [
+				"6E06EE61665B21F8"
+				"5AD2737939D42400"
+			]
+			id: "1CEF5E249A588AF2"
+			tasks: [{
+				id: "6405F4C14AB6F961"
+				type: "item"
+				item: "immersiveengineering:mold_wire"
+			}]
+			rewards: [{
+				id: "3F90A2D9D63DA2AC"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["基礎線纜。"]
+			dependencies: ["1CEF5E249A588AF2"]
+			id: "011FA047F92AA57A"
+			tasks: [{
+				id: "245F140C9BF6C3E7"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+			}]
+			rewards: [{
+				id: "09A109445BEF112C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			title: "鋸木機"
+			icon: "immersiveengineering:sawmill"
+			x: 3.5d
+			y: -3.0d
+			description: ["將原木切割成木材和鋸屑。"]
+			dependencies: [
+				"29010EDA0698FF13"
+				"6DFE93E573C412FF"
+			]
+			id: "345D39CB5AE73A3F"
+			tasks: [
+				{
+					id: "1B9B5E33D91F2ED7"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "076781DCD68C4C07"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "06B9B718ABCB440F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "13355A4F58E16277"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "558ECF30A80D9E07"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "1783A6DF4F1D05FF"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [{
+				id: "70A3EB8DE431D539"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["能用來製作紙。"]
+			dependencies: ["345D39CB5AE73A3F"]
+			id: "6EA8F25936E1F293"
+			tasks: [{
+				id: "424984602FAD5EFE"
+				type: "item"
+				item: "mekanism:sawdust"
+			}]
+			rewards: [{
+				id: "76033D201D842AA9"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["紙。"]
+			dependencies: ["6EA8F25936E1F293"]
+			id: "67D0F4FDC4CE350C"
+			tasks: [{
+				id: "59CA4541AED92568"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+			rewards: [{
+				id: "1796F81B74DDA25C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			description: ["用來製作其他金屬沖壓模具。"]
+			dependencies: [
+				"67D0F4FDC4CE350C"
+				"23DC7D381BFF12AA"
+			]
+			id: "5AD2737939D42400"
+			tasks: [{
+				id: "08855E8DB81ED74A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "75D08967513A2D90"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["製作染料的基底。"]
+			dependencies: ["6EA8F25936E1F293"]
+			id: "1C75502C51077E1B"
+			tasks: [{
+				id: "4CCDFA6519917A27"
+				type: "item"
+				item: "mekanism:dye_base"
+			}]
+			rewards: [{
+				id: "6D77933FC75D2E68"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["水滴和染料基底可用來製作藍色染料。"]
+			dependencies: ["1C75502C51077E1B"]
+			id: "23DC7D381BFF12AA"
+			tasks: [{
+				id: "6466BCBA23AD3F3C"
+				type: "item"
+				item: "minecraft:blue_dye"
+			}]
+			rewards: [{
+				id: "6B4E4383CA34CBEA"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["右鍵安裝置鋸木機中。"]
+			dependencies: ["6E06EE61665B21F8"]
+			id: "57003D86543FA1DE"
+			tasks: [{
+				id: "56007EFF18AA2C9F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:sawblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21451032F674FCB0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["可用更便宜的配方製作機械零件。"]
+			dependencies: ["23DC7D381BFF12AA"]
+			id: "4F306A09D4FDBFC0"
+			tasks: [{
+				id: "3C3BFA4A57959AB4"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["用來製作壓縮空間機器，這是個小型口袋維度，非常適合放置機器。"]
+			dependencies: ["77026B03A595301F"]
+			id: "7D16F593D9F00A2B"
+			tasks: [{
+				id: "4E8AD7F228CCF9F2"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+			rewards: [{
+				id: "37B8747625D0489D"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["Allows you to enter your compact machines"]
+			dependencies: ["7D16F593D9F00A2B"]
+			id: "0A2BBEF60395A8CB"
+			tasks: [{
+				id: "0922CA9005A80EBB"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "7576ED318F0EB489"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["傳輸電力進出壓縮空間機器。"]
+			dependencies: ["7D16F593D9F00A2B"]
+			id: "54235547730CE334"
+			tasks: [{
+				id: "6CAC41189F8E584A"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:energy"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "65B246885E656EF0"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			description: ["傳輸物品進出壓縮空間機器。"]
+			dependencies: ["7D16F593D9F00A2B"]
+			id: "1C04ECF34FF53656"
+			tasks: [{
+				id: "4BD655BD86711D98"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CB3DC0A56B397D5"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["傳輸流體進出壓縮空間機器。"]
+			dependencies: ["7D16F593D9F00A2B"]
+			id: "3869AA4CED85DE29"
+			tasks: [{
+				id: "0D3338990FD2874C"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:fluid"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09784C2C78F30F2B"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["讓壓縮空間機器保持載入中。"]
+			dependencies: [
+				"54235547730CE334"
+				"1C04ECF34FF53656"
+				"3869AA4CED85DE29"
+			]
+			id: "2841DD08A59A349D"
+			tasks: [{
+				id: "47DD337E52DE6E4F"
+				type: "item"
+				item: {
+					id: "compactmachines:chunkloader_upgrade"
+					Count: 1b
+					tag: {
+						upgrade_info: {
+							key: "compactmachines:chunkloader"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "639A6F1572BD7721"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["持續追蹤已吃過的食物，吃得越多，血量越多。"]
+			dependencies: [
+				"617ED2DED8E55C11"
+				"67D0F4FDC4CE350C"
+			]
+			id: "5F10276DAC89EDAB"
+			tasks: [{
+				id: "6D03C44C5110DF5A"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+			rewards: [{
+				id: "5ACB13C0F082629C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}

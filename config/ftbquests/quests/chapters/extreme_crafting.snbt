@@ -1,0 +1,168 @@
+{
+	id: "5AD2E28EB86BD21B"
+	group: "247F799727C527B4"
+	order_index: 2
+	filename: "extreme_crafting"
+	title: "終極工作台"
+	icon: "extendedcrafting:crafting_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["第一階的合成台，不太實用。"]
+			dependencies: ["16AB8DF7FDABE74E"]
+			id: "4B59C6F5BA49DBB4"
+			tasks: [{
+				id: "070B727A11ED2359"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "394AC854C0DCF96F"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["用來製作一些機器。"]
+			dependencies: ["18C2AEE3624B8194"]
+			id: "16AB8DF7FDABE74E"
+			tasks: [{
+				id: "1133458EE8045B1C"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+			rewards: [{
+				id: "0D5C6F4BB394C47C"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["在金屬沖壓機中裝上板材模具用黑鐵錠製成。"]
+			dependencies: ["5040B03AAF830C45"]
+			id: "18C2AEE3624B8194"
+			tasks: [{
+				id: "7ACE83E5B64FCC57"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+			rewards: [{
+				id: "304CECCF73131278"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["原煤可用無盡煤礦中取得。"]
+			dependencies: ["3E5A782658A70701"]
+			id: "5040B03AAF830C45"
+			tasks: [{
+				id: "45FCD8DD0ABB8BA5"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [{
+				id: "3A728E5E49A601CF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			description: ["更高級的合成。"]
+			dependencies: ["4B59C6F5BA49DBB4"]
+			id: "65CF617E4617BFEF"
+			tasks: [{
+				id: "15BAD44250F78974"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "3802050FF80659FF"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["和合成核心一起使用。"]
+			dependencies: ["65CF617E4617BFEF"]
+			id: "3E3F78D49084791E"
+			tasks: [{
+				id: "08E9DFBB5BDA92CC"
+				type: "item"
+				item: "extendedcrafting:pedestal"
+			}]
+			rewards: [{
+				id: "556CFD33B6A92B80"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["消耗電力將附近基座上的物品結合。"]
+			dependencies: ["65CF617E4617BFEF"]
+			id: "5C3C99FC2878B59F"
+			tasks: [{
+				id: "2230CB83934510EF"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
+			}]
+			rewards: [{
+				id: "0F81810688949B49"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["它又回來了！能用來製作更多外星文物。"]
+			dependencies: [
+				"3E3F78D49084791E"
+				"5C3C99FC2878B59F"
+			]
+			id: "1C49C726513AB39C"
+			tasks: [{
+				id: "425B47AFA901F679"
+				type: "item"
+				item: "astropolis:ingot_of_ingots"
+			}]
+			rewards: [{
+				id: "11DEBAD25EDEFFAD"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["我們不都喜歡這台機器嗎！！！想必你已知道接下來會發生什麼。"]
+			dependencies: ["1C49C726513AB39C"]
+			id: "03885DA50223B13B"
+			tasks: [{
+				id: "4335A47BB49F791A"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "7577FAD6F2625B6A"
+				type: "item"
+				item: "opolisutilities:b_bucks"
+			}]
+		}
+	]
+}
