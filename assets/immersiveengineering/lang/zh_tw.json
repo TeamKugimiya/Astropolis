@@ -1,7 +1,7 @@
 {
-	"fluid.immersiveengineering.acetaldehyde": "乙醛",
+	"fluid_type.immersiveengineering.acetaldehyde": "乙醛",
 	"item.immersiveengineering.acetaldehyde_bucket": "乙醛桶",
-	"fluid.immersiveengineering.phenolic_resin": "酚醛樹脂",
+	"fluid_type.immersiveengineering.phenolic_resin": "酚醛樹脂",
 	"item.immersiveengineering.phenolic_resin_bucket": "酚醛樹脂桶",
 	
 	"advancement.immersiveengineering.craft_duroplast": "現代化材料",
