@@ -43,5 +43,14 @@
 	"item.supplementaries.maidensmerrymaking.sign_post_preserved_exposed_pine": "保存完好的裸露松木指路牌",
 	"item.supplementaries.maidensmerrymaking.sign_post_preserved_weathered_pine": "保存完好的風化松木指路牌",
 	"item.supplementaries.maidensmerrymaking.sign_post_preserved_aged_pine": "保存完好的老松木指路牌",
-	"item.supplementaries.deeperdarker.sign_post_echo": "回聲木指路牌"
+	"item.supplementaries.deeperdarker.sign_post_echo": "回聲木指路牌",
+
+	"fluid_type.immersiveengineering.creosote":"雜酚油",
+	"fluid_type.immersiveengineering.ethanol":"乙醇",
+	"fluid_type.immersiveengineering.plantoil":"植物油",
+	"fluid_type.immersiveengineering.biodiesel":"生物柴油",
+	"fluid_type.immersiveengineering.concrete":"液態混凝土",
+	"fluid_type.immersiveengineering.potion":"藥水",
+	"fluid_type.immersiveengineering.herbicide":"除草劑",
+	"fluid_type.immersiveengineering.redstone_acid":"紅石酸溶液"
 }
