@@ -1,4 +1,6 @@
 {
+	"key.categories.loginar": "洛琪納儲存",
+	
 	"block.astropolis.never_ender_ore_base": "無盡礦基底",
 
 	"block.supplementaries.hanging_sign_oak": "橡木懸掛式招牌",
@@ -7,6 +9,7 @@
 	"block.supplementaries.hanging_sign_jungle": "叢林木懸掛式招牌",
 	"block.supplementaries.hanging_sign_acacia": "相思木懸掛式招牌",
 	"block.supplementaries.hanging_sign_dark_oak": "黑橡木懸掛式招牌",
+	"block.supplementaries.hanging_sign_mangrove": "紅樹林木懸掛式招牌",
 	"block.supplementaries.hanging_sign_crimson": "緋紅蕈木懸掛式招牌",
 	"block.supplementaries.hanging_sign_warped": "扭曲蕈木懸掛式招牌",
 	"block.supplementaries.quark.hanging_sign_azalea": "杜鵑木懸掛式招牌",
@@ -27,6 +30,7 @@
 	"item.supplementaries.sign_post_jungle": "叢林木指路牌",
 	"item.supplementaries.sign_post_acacia": "相思木指路牌",
 	"item.supplementaries.sign_post_dark_oak": "黑橡木指路牌",
+	"item.supplementaries.sign_post_mangrove": "紅樹林木指路牌",
 	"item.supplementaries.sign_post_crimson": "緋紅蕈木指路牌",
 	"item.supplementaries.sign_post_warped": "扭曲蕈木指路牌",
 	"item.supplementaries.quark.sign_post_azalea": "杜鵑木指路牌",
