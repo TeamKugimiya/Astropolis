@@ -20,8 +20,6 @@
 	"block.supplementaries.maidensmerrymaking.hanging_sign_preserved_weathered_pine": "保存完好的風化松木懸掛式招牌",
 	"block.supplementaries.maidensmerrymaking.hanging_sign_preserved_aged_pine": "保存完好的老松木懸掛式招牌",
 	"block.supplementaries.deeperdarker.hanging_sign_echo": "回聲木懸掛式招牌",
-	
-	"item.ceramicbucket.unfired_clay_bucket": "未燒製黏土桶",
 
 	"item.supplementaries.sign_post_oak": "橡木指路牌",
 	"item.supplementaries.sign_post_spruce": "杉木指路牌",
@@ -31,16 +29,15 @@
 	"item.supplementaries.sign_post_dark_oak": "黑橡木指路牌",
 	"item.supplementaries.sign_post_crimson": "緋紅蕈木指路牌",
 	"item.supplementaries.sign_post_warped": "扭曲蕈木指路牌",
-	"block.supplementaries.quark.sign_post_azalea": "杜鵑木指路牌",
-	"block.supplementaries.quark.sign_post_blossom": "繁花木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_pine": "松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_exposed_pine": "裸露松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_weathered_pine": "風化松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_aged_pine": "老松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_preserved_pine": "保存完好的松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_preserved_exposed_pine": "保存完好的裸露松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_preserved_weathered_pine": "保存完好的風化松木指路牌",
-	"block.supplementaries.maidensmerrymaking.sign_post_preserved_aged_pine": "保存完好的老松木指路牌",
-	"block.supplementaries.deeperdarker.sign_post_echo": "回聲木指路牌"
-
+	"item.supplementaries.quark.sign_post_azalea": "杜鵑木指路牌",
+	"item.supplementaries.quark.sign_post_blossom": "繁花木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_pine": "松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_exposed_pine": "裸露松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_weathered_pine": "風化松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_aged_pine": "老松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_preserved_pine": "保存完好的松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_preserved_exposed_pine": "保存完好的裸露松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_preserved_weathered_pine": "保存完好的風化松木指路牌",
+	"item.supplementaries.maidensmerrymaking.sign_post_preserved_aged_pine": "保存完好的老松木指路牌",
+	"item.supplementaries.deeperdarker.sign_post_echo": "回聲木指路牌"
 }
