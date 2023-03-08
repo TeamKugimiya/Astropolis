@@ -30,6 +30,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["70B946DACCDA8D63"]
+			optional: true
 			id: "57E17A070A7990BF"
 			tasks: [{
 				id: "7B568283A17C98E4"
@@ -64,6 +65,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["6230193071F17AA1"]
+			optional: true
 			id: "661E50E496708717"
 			tasks: [{
 				id: "7A956AC035D3BA0D"
@@ -132,6 +134,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["34E0E358B232A37D"]
+			optional: true
 			id: "5C8506CFCD14BBD3"
 			tasks: [{
 				id: "6D64105B39442CEA"
@@ -200,6 +203,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["6D29DB31E8BB9CAB"]
+			optional: true
 			id: "0AD4B9CB151A0CC4"
 			tasks: [{
 				id: "552A294AF7E46808"
@@ -234,6 +238,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["12439A646FA54DAB"]
+			optional: true
 			id: "334494E1DA746F30"
 			tasks: [{
 				id: "7358D35D4196B6FE"
@@ -264,4 +269,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

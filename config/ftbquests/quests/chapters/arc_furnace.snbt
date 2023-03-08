@@ -501,6 +501,7 @@
 			y: -0.5d
 			description: ["可用更便宜的配方製作石墨電極。"]
 			dependencies: ["25DE6A741B175512"]
+			optional: true
 			id: "5B297BE0690EB236"
 			tasks: [{
 				id: "3CB544F374F1D1E5"
@@ -642,4 +643,5 @@
 			}]
 		}
 	]
+		quest_links: [ ]
 }

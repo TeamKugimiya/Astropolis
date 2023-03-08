@@ -514,5 +514,17 @@
 				item: "opolisutilities:b_bucks"
 			}]
 		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["更高級的資源製造機。"]
+			dependencies: ["775F56BEF4137CF6"]
+			id: "413FB41CF423E723"
+			tasks: [{
+				id: "0063EDC3BF307FCE"
+				type: "item"
+				item: "opolisutilities:resource_generator_2"
+			}]
+		}
 	]
 }

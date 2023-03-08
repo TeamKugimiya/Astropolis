@@ -113,6 +113,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "5FEE4C8700AE405D"
 			tasks: [{
 				id: "576F2A1309DA12B7"
@@ -154,6 +155,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "107A7ADA10E96202"
 			tasks: [{
 				id: "0A0478D4ED80421D"
@@ -175,6 +177,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "2465EE14137DC1F9"
 			tasks: [{
 				id: "6F4635065266D40C"
@@ -196,6 +199,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "3163732D6B35FDDD"
 			tasks: [{
 				id: "13FACAFE906D4322"
@@ -217,6 +221,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "4899AE9F4997CACB"
 			tasks: [{
 				id: "72CDECC6444E0DB2"
@@ -238,6 +243,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "41C77FD893AFFE3F"
 			tasks: [{
 				id: "794DB27B4E6A6993"
@@ -259,6 +265,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "311C84092A4B7EDA"
 			tasks: [{
 				id: "2023EF703B2BAC48"
@@ -280,6 +287,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "03E41A5C33E5F9EA"
 			tasks: [{
 				id: "4358DCB8C8B59151"
@@ -301,6 +309,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "033D100B1D0D1A41"
 			tasks: [{
 				id: "5276A4799E90DCA3"
@@ -322,6 +331,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "01F030558E5F2353"
 			tasks: [{
 				id: "24F1814395318C2C"
@@ -343,6 +353,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "78DFCE7F6D53E321"
 			tasks: [{
 				id: "4BEE4973F51C7745"
@@ -364,6 +375,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "3CECC5ECD7D5B8E2"
 			tasks: [{
 				id: "7F94F6B999218CA3"
@@ -385,6 +397,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "21060737D91E3B13"
 			tasks: [{
 				id: "4D22FF0284C5817D"
@@ -406,6 +419,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "7AB4280EEE578CF1"
 			tasks: [{
 				id: "3846D8FDB88556F5"
@@ -427,6 +441,7 @@
 				"495108A86FEACDEE"
 				"4AE1BA0FE1FEEA67"
 			]
+			optional: true
 			id: "26D0F59F279C609B"
 			tasks: [{
 				id: "4C89F73BEAED84C0"
@@ -448,6 +463,7 @@
 				"4AE1BA0FE1FEEA67"
 				"495108A86FEACDEE"
 			]
+			optional: true
 			id: "4B159339C804AA77"
 			tasks: [{
 				id: "203B9A7E37489014"
@@ -461,4 +477,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -81,6 +81,7 @@
 			y: -1.0d
 			description: ["在玻璃園藝溫室罩中種植。"]
 			dependencies: ["41949218E8FB802A"]
+			optional: true
 			id: "26695394549D0098"
 			tasks: [{
 				id: "681CD82FC32CFE4F"
@@ -656,4 +657,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
