@@ -1,4 +1,4 @@
-# All the Mods 7 - To the Sky
+# Astropolis
 
 [![Astropolis][curseforge]][astropolis]
 [![Version][version_badge]][version_link]
@@ -13,7 +13,7 @@
 本中文化補丁涵蓋了模組包大多數內容，如：標題畫面、FTB Quests 任務，以及 KubeJS 自訂物品。<br>
 為獲得最佳的中文化體驗，建議額外安裝以下模組：
 
-* [PRP]：使某些模組的 Patchouli 指南手冊翻譯，得以使用資源包覆蓋。<br>若未安裝該模組，遊戲中部份手冊內容將會保持原文。<br>請注意：安裝模組後，剛進入世界時，會導致用戶端短暫凍結，屬於正常現象。
+* [PRP]：使某些模組的 Patchouli 指南手冊翻譯，得以使用資源包覆蓋。<br>若未安裝該模組，遊戲中部份手冊內容將會保持原文。
 * [Modern UI][modernui]：使遊戲字體在各種介面大小下，始終以最高畫質顯示。<br>若未安裝該模組，遊戲中部分手冊或介面將會難以辨讀。
 
 ## **下載**
