@@ -436,7 +436,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			description: ["Allows you to enter your compact machines"]
+			description: ["可讓你進入壓縮空間機械中"]
 			dependencies: ["7D16F593D9F00A2B"]
 			id: "0A2BBEF60395A8CB"
 			tasks: [{
